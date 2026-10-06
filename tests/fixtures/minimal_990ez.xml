@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" returnVersion="2024v5.0">
+  <ReturnHeader>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>990EZ</ReturnTypeCd>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>123456789</EIN>
+      <BusinessName><BusinessNameLine1Txt>EXAMPLE FOUNDATION</BusinessNameLine1Txt></BusinessName>
+    </Filer>
+    <TaxYr>2024</TaxYr>
+  </ReturnHeader>
+  <ReturnData>
+    <IRS990EZ>
+      <AmendedReturnInd>X</AmendedReturnInd>
+      <ContributionsGiftsGrantsEtcAmt>1000</ContributionsGiftsGrantsEtcAmt>
+      <ProgramServiceRevenueAmt>200</ProgramServiceRevenueAmt>
+      <MembershipDuesAmt>50</MembershipDuesAmt>
+      <InvestmentIncomeAmt>5</InvestmentIncomeAmt>
+      <TotalRevenueAmt>1255</TotalRevenueAmt>
+      <TotalExpensesAmt>900</TotalExpensesAmt>
+      <NetAssetsOrFundBalancesEOYAmt>355</NetAssetsOrFundBalancesEOYAmt>
+      <Form990TotalAssetsGrp><BOYAmt>0</BOYAmt><EOYAmt>400</EOYAmt></Form990TotalAssetsGrp>
+      <SumOfTotalLiabilitiesGrp><BOYAmt>0</BOYAmt><EOYAmt>45</EOYAmt></SumOfTotalLiabilitiesGrp>
+    </IRS990EZ>
+  </ReturnData>
+</Return>

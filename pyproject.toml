@@ -1,0 +1,68 @@
+[project]
+name = "foss990parser"
+version = "0.1.0"
+description = "Extract IRS Form 990 e-file data for FOSS foundations (fossfoundation.info)."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [{ name = "Shane Curcuru" }]
+requires-python = ">=3.10"
+dependencies = [
+    "lxml>=5.2",
+    "pyyaml>=6.0",
+    "requests>=2.32",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial",
+]
+
+[project.optional-dependencies]
+# Deflate64 ("Enhanced Deflate") zip support, needed for a few IRS zips.
+# Kept optional so the base install has no LGPL dependency.
+deflate64 = ["inflate64>=1.0"]
+
+[project.scripts]
+foss990 = "foss990parser.cli:main"
+
+[dependency-groups]
+dev = [
+    "inflate64>=1.0",
+    "lxml-stubs>=0.5",
+    "mypy>=1.11",
+    "pytest>=8.0",
+    "ruff>=0.6",
+    "types-pyyaml>=6.0",
+    "types-requests>=2.32",
+]
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 79          # PEP 8 maximum line length
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+# E/W: pycodestyle (PEP 8), F: pyflakes, I: import order, N: PEP 8 naming,
+# D: docstrings (PEP 257), UP: modern syntax, B: likely bugs, SIM: simplify.
+select = ["E", "W", "F", "I", "N", "D", "UP", "B", "SIM"]
+ignore = ["D203", "D213"]  # use D211/D212 docstring layout
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+mypy_path = "src"
+
+[[tool.mypy.overrides]]
+module = ["inflate64"]  # no type hints published
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

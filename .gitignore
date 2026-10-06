@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+build/
+dist/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Downloaded IRS data (large; reproducible)
+cache/
+
+# Generated output (publish with --out to fossfoundation/_data/irs990)
+data/
+
+# OS / editor files
+.DS_Store

@@ -1,0 +1,2371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2024v5.2">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-11-17T19:12:24-06:00</ReturnTs>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>861065772</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>DELOITTE TAX LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>695 TOWN CENTER DRIVE SUITE 1200</AddressLine1Txt>
+        <CityNm>COSTA MESA</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>926261924</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>200097189</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>MOZILLA FOUNDATION</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>MOZI</BusinessNameControlTxt>
+      <PhoneNum>6509030800</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>149 NEW MONTGOMERY STREET 4TH FLOO</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94105</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>MARK SURMAN</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>6509030800</PhoneNum>
+      <SignatureDt>2025-11-16</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>0</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>JOHN W SADOFF JR</PreparerPersonNm>
+      <PTIN>P00540589</PTIN>
+      <PhoneNum>7144367100</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2024</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS990 documentId="RetDoc1038000001" referenceDocumentId="RetDoc1044400001">
+      <PrincipalOfficerNm>MARK SURMAN</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>149 NEW MONTGOMERY STREET 4TH FLOOR</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94105</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>37165545</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>WWW.MOZILLA.ORG</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>2003</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>PROTECT AND IMPROVE THE INTERNET AS A PUBLIC RESOURCE, OPEN AND ACCESSIBLE TO ALL.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>10</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>8</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>73</TotalEmployeeCnt>
+      <TotalVolunteersCnt>10000</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>2099195</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>1736562</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>7821194</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>6513893</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>19254387</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>23896509</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>41352647</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>6848710</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>10370</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>-93567</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>68438598</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>37165545</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>5981253</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>2336028</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>17097934</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>18423412</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>3052246</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>16766097</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>20439910</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>39845284</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>41199350</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>28593314</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>-4033805</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>124157331</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>123347649</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>6199575</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>5800053</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>117957756</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>117547596</NetAssetsOrFundBalancesEOYAmt>
+      <InfoInScheduleOPartIIIInd>X</InfoInScheduleOPartIIIInd>
+      <MissionDesc>MOZILLA FOUNDATION WORKS WITH A BROAD MOVEMENT OF PEOPLE, PROJECTS, AND ORGANIZATIONS TO PROTECT AND IMPROVE THE INTERNET AS A PUBLIC RESOURCE. WE STRIVE TO KEEP THE INTERNET OPEN AND ACCESSIBLE TO ALL, AND TO PROMOTE MORE TRUSTWORTHY TOOLS, INNOVATION, AND PRACTICES ONLINE.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>750102</ExpenseAmt>
+      <GrantAmt>0</GrantAmt>
+      <RevenueAmt>0</RevenueAmt>
+      <Desc>AGENDA SETTING MOZILLA RESEARCHES ISSUES AT THE INTERSECTION OF TECHNOLOGY AND SOCIETY AND THEN PROPELS THEM INTO THE PUBLIC CONVERSATION. IN 2024, MOZILLA PROVIDED RESEARCH, COMMENTARY, AND ANALYSIS ON TOPICS LIKE OPENNESS IN AI, THE ENVIRONMENTAL IMPACTS OF AI, PROTECTING CONSUMER PRIVACY, AND UPHOLDING ONLINE INFORMATION INTEGRITY ON MAJOR PLATFORMS. IN 2024, MOZILLA SPENT $750,102 TO SUPPORT ITS AGENDA-SETTING WORK.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>10984792</ExpenseAmt>
+        <GrantAmt>2069427</GrantAmt>
+        <RevenueAmt>75000</RevenueAmt>
+        <Desc>LEADERSHIP DEVELOPMENT MOZILLA SUPPORTS PEOPLE AND PROJECTS MAKING AI MORE TRUSTWORTHY AND THE INTERNET HEALTHIER. IN 2024, MOZILLA WELCOMED SEVERAL NEW FELLOWS AND AWARDEES WORKING AT THE INTERSECTION OF AI AND CLIMATE JUSTICE, PUBLIC POLICY, ETHICS, ART, AND A RANGE OF OTHER TOPICS. IN 2024, MOZILLA SPENT $10,984,792 TO SUPPORT ITS LEADERSHIP DEVELOPMENT WORK.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <ProgSrvcAccomActy3Grp>
+        <ExpenseAmt>15633446</ExpenseAmt>
+        <GrantAmt>266600</GrantAmt>
+        <RevenueAmt>0</RevenueAmt>
+        <Desc>MOVEMENT BUILDING MOZILLA FUELS THE MOVEMENT FOR A BETTER INTERNET, BUILDING BRIDGES BETWEEN DIGITAL RIGHTS ACTIVISTS, OPEN-SOURCE CHAMPIONS, AND OTHER COMMUNITIES. IN 2024, MOZILLA PUBLISHED OUR * PRIVACY NOT INCLUDED GUIDE WITH A FOCUS ON PRIVACY IN DATING APPS, AS WELL AS AI CHATBOTS, PUBLISHED A RANGE OF PETITIONS AND OPEN LETTERS ABOUT PLATFORM TRANSPARENCY, AND HELD SIGNATURE MOZFEST CONVENINGS IN THE NETHERLANDS AND ZAMBIA. IN 2024, MOZILLA SPENT $15,633,446 TO SUPPORT ITS MOVEMENT-BUILDING WORK.</Desc>
+      </ProgSrvcAccomActy3Grp>
+      <ProgSrvcAccomActyOtherGrp>
+        <RevenueAmt>23037218</RevenueAmt>
+        <Desc>TRADEMARK LICENSE FEES.</Desc>
+      </ProgSrvcAccomActyOtherGrp>
+      <TotalOtherProgSrvcRevenueAmt>23037218</TotalOtherProgSrvcRevenueAmt>
+      <TotalProgramServiceExpensesAmt>27368340</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="RetDoc1039100001">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="RetDoc1234500001">1</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd referenceDocumentId="RetDoc1039700001">0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd referenceDocumentId="RetDoc1039700001">1</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd referenceDocumentId="RetDoc1039700001">0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="RetDoc1040000001">0</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="RetDoc1040000001">0</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="RetDoc1040000001">0</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="RetDoc1040000001">0</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd>0</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="RetDoc1040000001">1</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="RetDoc1040000001">1</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="RetDoc1040000001">1</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="RetDoc1040000001">0</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="RetDoc1040000001">1</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="RetDoc1040000001">1</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">0</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">1</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>1</ForeignOfficeInd>
+      <ForeignActivitiesInd referenceDocumentId="RetDoc1040500001">1</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd referenceDocumentId="RetDoc1040500001">1</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd referenceDocumentId="RetDoc1040500001">1</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd>0</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>0</FundraisingActivitiesInd>
+      <GamingActivitiesInd>0</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd referenceDocumentId="RetDoc1041900001">1</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd referenceDocumentId="RetDoc1041900001">1</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="RetDoc1042400001">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>0</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd>0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd>0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd>0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd>0</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd>0</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd>0</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd referenceDocumentId="RetDoc1043400001">0</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="RetDoc1043400001">1</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>1</RelatedOrganizationCtrlEntInd>
+      <TransactionWithControlEntInd referenceDocumentId="RetDoc1043400001">1</TransactionWithControlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd referenceDocumentId="RetDoc1043400001">0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd referenceDocumentId="RetDoc1043400001">0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <InfoInScheduleOPartVInd>X</InfoInScheduleOPartVInd>
+      <IRPDocumentCnt>78</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>1</BackupWthldComplianceInd>
+      <EmployeeCnt>73</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>1</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>1</UnrelatedBusIncmOverLimitInd>
+      <Form990TFiledInd>1</Form990TFiledInd>
+      <ForeignFinancialAccountInd>1</ForeignFinancialAccountInd>
+      <ForeignCountryCd>AS</ForeignCountryCd>
+      <ForeignCountryCd>CA</ForeignCountryCd>
+      <ForeignCountryCd>CH</ForeignCountryCd>
+      <ForeignCountryCd>FR</ForeignCountryCd>
+      <ForeignCountryCd>GM</ForeignCountryCd>
+      <ForeignCountryCd>JA</ForeignCountryCd>
+      <ForeignCountryCd>LU</ForeignCountryCd>
+      <ForeignCountryCd>NZ</ForeignCountryCd>
+      <ForeignCountryCd>SP</ForeignCountryCd>
+      <ForeignCountryCd>UK</ForeignCountryCd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>0</QuidProQuoContributionsInd>
+      <Form8282PropertyDisposedOfInd>0</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>0</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>10</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>8</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>0</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>0</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>0</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>1</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>0</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>1</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>1</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>0</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>0</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>AL</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>AR</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>CT</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>FL</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>GA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>HI</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>IL</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>KS</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>KY</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MD</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MI</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MN</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MS</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NC</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>ND</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NH</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NJ</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NM</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NY</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>OR</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>PA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>RI</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>SC</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>TN</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>UT</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>VA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>WI</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>WV</StatesWhereCopyOfReturnIsFldCd>
+      <OwnWebsiteInd>X</OwnWebsiteInd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1Txt>ANGELA PLOHMAN</BusinessNameLine1Txt>
+        </BusinessName>
+        <PhoneNum>6509030800</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>149 NEW MONTGOMERY STREET 4TH FLOOR</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94105</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MARK SURMAN</PersonNm>
+        <TitleTxt>PRESIDENT, DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>610704</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>47754</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>HELEN TURVEY</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>3.75</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>78785</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>BRIAN BEHLENDORFF</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>3.25</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>60828</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>NICOLE WONG</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>3.50</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>59696</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>AMY KEATING</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>2.50</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>44583</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ZAIN HABBOO</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>2.50</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>43388</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>EDWIN MACHARIA</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>3.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>43216</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ALONDRA NELSON</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>42327</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>RAFFI KRIKORIAN</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>37174</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MITCHELL BAKER CHAIR</PersonNm>
+        <TitleTxt>PAID ONLY BY A RELATED FOR-PROFIT</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>6098858</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>35307</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ANGELA PLOHMAN</PersonNm>
+        <TitleTxt>COO, SECRETARY &amp; TREASURER</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>363756</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>28339</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>NABIHA SYED</PersonNm>
+        <TitleTxt>EXECUTIVE DIRECTOR (BEG 04/2024)</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>310566</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>29075</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>J BOB ALOTTA</PersonNm>
+        <TitleTxt>SVP, GLOBAL PROGRAMS</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>434746</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>82621</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ASHLEY BOYD</PersonNm>
+        <TitleTxt>SVP, GLOBAL ADVOCACY</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>309984</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>73123</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>LAINIE DECOURSY</PersonNm>
+        <TitleTxt>DIR., ORGANIZATIONAL EFFECTIVENESS</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>281271</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>72952</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JESSICA KEATING</PersonNm>
+        <TitleTxt>SR. LEAD, PARTNERSHIPS + FUNDRAISING</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>260056</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>52766</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>DAVID WALKER</PersonNm>
+        <TitleTxt>SENIOR COUNSEL</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>230654</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>43131</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>SHING SUITER</PersonNm>
+        <TitleTxt>SR. DIRECTOR, TECHNOLOGY PLATFORMS</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>226462</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>29230</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CANDICE MARTIN</PersonNm>
+        <TitleTxt>DIRECTOR, PEOPLE &amp; CULTURE</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>223893</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>40142</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>3662089</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>6098858</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>534440</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>65</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>0</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>MISSION NORTH INC</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>45 MAIN STREET STE 718</AddressLine1Txt>
+            <CityNm>BROOKLYN</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>11201</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>STRATEGIC COMMUNICATIONS</ServicesDesc>
+        <CompensationAmt>1357688</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>MAUVE CORPORATE SYSTEMS</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <ForeignAddress>
+            <AddressLine1Txt>BLAKE HOUSE 18 - BLAKE STREET</AddressLine1Txt>
+            <CityNm>YORK</CityNm>
+            <ProvinceOrStateNm>ENGLAND</ProvinceOrStateNm>
+            <CountryCd>UK</CountryCd>
+            <ForeignPostalCd>YO1 8QG</ForeignPostalCd>
+          </ForeignAddress>
+        </ContractorAddress>
+        <ServicesDesc>CONTRACT EMPLOYEES</ServicesDesc>
+        <CompensationAmt>1040250</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>AYAB INC</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>1148 MAIN STREET</AddressLine1Txt>
+            <CityNm>MALDEN ON HUDSON</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>12453</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>TECHNICAL STRATEGY AND MANAGEMENT</ServicesDesc>
+        <CompensationAmt>809859</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>BEE AGENCY BV</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <ForeignAddress>
+            <AddressLine1Txt>SCATTENHAGESTREET 14</AddressLine1Txt>
+            <CityNm>NAARDEN</CityNm>
+            <CountryCd>NL</CountryCd>
+            <ForeignPostalCd>1411 CT</ForeignPostalCd>
+          </ForeignAddress>
+        </ContractorAddress>
+        <ServicesDesc>EVENT MANAGEMENT SERVICES</ServicesDesc>
+        <CompensationAmt>520759</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>RSM US LLP</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>5155 PAYSPHERE CIRCLE</AddressLine1Txt>
+            <CityNm>CHICAGO</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60674</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>ACCOUNTING AND FINANCIAL MANAGEMENT</ServicesDesc>
+        <CompensationAmt>507101</CompensationAmt>
+      </ContractorCompensationGrp>
+      <CntrctRcvdGreaterThan100KCnt>32</CntrctRcvdGreaterThan100KCnt>
+      <GovernmentGrantsAmt>469046</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>6044847</AllOtherContributionsAmt>
+      <TotalContributionsAmt>6513893</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>LICENSING ROYALTIES</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>23037218</TotalRevenueColumnAmt>
+        <UnrelatedBusinessRevenueAmt>2099195</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>20938023</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>SERVICE AGREEMENT</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>303307</TotalRevenueColumnAmt>
+        <ExclusionAmt>303307</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalOthProgramServiceRevGrp>
+        <TotalRevenueColumnAmt>555984</TotalRevenueColumnAmt>
+        <ExclusionAmt>555984</ExclusionAmt>
+      </TotalOthProgramServiceRevGrp>
+      <TotalProgramServiceRevenueAmt>23896509</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>6847292</TotalRevenueColumnAmt>
+        <ExclusionAmt>6847292</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <GrossAmountSalesAssetsGrp>
+        <OtherAmt>1418</OtherAmt>
+      </GrossAmountSalesAssetsGrp>
+      <LessCostOthBasisSalesExpnssGrp>
+        <OtherAmt>0</OtherAmt>
+      </LessCostOthBasisSalesExpnssGrp>
+      <GainOrLossGrp>
+        <OtherAmt>1418</OtherAmt>
+      </GainOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>1418</TotalRevenueColumnAmt>
+        <ExclusionAmt>1418</ExclusionAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>FOREIGN EXCHANGE LOSS</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>-93567</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>-93567</ExclusionAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueTotalAmt>-93567</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>37165545</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>2099195</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>28552457</ExclusionAmt>
+      </TotalRevenueGrp>
+      <GrantsToDomesticOrgsGrp>
+        <TotalAmt>661741</TotalAmt>
+        <ProgramServicesAmt>661741</ProgramServicesAmt>
+      </GrantsToDomesticOrgsGrp>
+      <GrantsToDomesticIndividualsGrp>
+        <TotalAmt>73592</TotalAmt>
+        <ProgramServicesAmt>73592</ProgramServicesAmt>
+      </GrantsToDomesticIndividualsGrp>
+      <ForeignGrantsGrp>
+        <TotalAmt>1600695</TotalAmt>
+        <ProgramServicesAmt>1600695</ProgramServicesAmt>
+      </ForeignGrantsGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>3268605</TotalAmt>
+        <ProgramServicesAmt>1219244</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1519028</ManagementAndGeneralAmt>
+        <FundraisingAmt>530333</FundraisingAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>11347498</TotalAmt>
+        <ProgramServicesAmt>7457056</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2791563</ManagementAndGeneralAmt>
+        <FundraisingAmt>1098879</FundraisingAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>886581</TotalAmt>
+        <ProgramServicesAmt>531316</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>257582</ManagementAndGeneralAmt>
+        <FundraisingAmt>97683</FundraisingAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>1826052</TotalAmt>
+        <ProgramServicesAmt>1070311</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>573654</ManagementAndGeneralAmt>
+        <FundraisingAmt>182087</FundraisingAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>1094676</TotalAmt>
+        <ProgramServicesAmt>693049</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>285247</ManagementAndGeneralAmt>
+        <FundraisingAmt>116380</FundraisingAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesManagementGrp>
+        <TotalAmt>11317392</TotalAmt>
+        <ProgramServicesAmt>9176023</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1833933</ManagementAndGeneralAmt>
+        <FundraisingAmt>307436</FundraisingAmt>
+      </FeesForServicesManagementGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>891181</TotalAmt>
+        <ManagementAndGeneralAmt>882717</ManagementAndGeneralAmt>
+        <FundraisingAmt>8464</FundraisingAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>691077</TotalAmt>
+        <ManagementAndGeneralAmt>691077</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForSrvcInvstMgmntFeesGrp>
+        <TotalAmt>216116</TotalAmt>
+        <ManagementAndGeneralAmt>216116</ManagementAndGeneralAmt>
+      </FeesForSrvcInvstMgmntFeesGrp>
+      <AdvertisingGrp>
+        <TotalAmt>1880828</TotalAmt>
+        <ProgramServicesAmt>1185918</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>348007</ManagementAndGeneralAmt>
+        <FundraisingAmt>346903</FundraisingAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>438318</TotalAmt>
+        <ProgramServicesAmt>173456</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>149863</ManagementAndGeneralAmt>
+        <FundraisingAmt>114999</FundraisingAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>596931</TotalAmt>
+        <ProgramServicesAmt>355472</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>175856</ManagementAndGeneralAmt>
+        <FundraisingAmt>65603</FundraisingAmt>
+      </InformationTechnologyGrp>
+      <OccupancyGrp>
+        <TotalAmt>64280</TotalAmt>
+        <ProgramServicesAmt>38279</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>18937</ManagementAndGeneralAmt>
+        <FundraisingAmt>7064</FundraisingAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>2019201</TotalAmt>
+        <ProgramServicesAmt>1344437</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>572406</ManagementAndGeneralAmt>
+        <FundraisingAmt>102358</FundraisingAmt>
+      </TravelGrp>
+      <ConferencesMeetingsGrp>
+        <TotalAmt>1816562</TotalAmt>
+        <ProgramServicesAmt>1491610</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>305549</ManagementAndGeneralAmt>
+        <FundraisingAmt>19403</FundraisingAmt>
+      </ConferencesMeetingsGrp>
+      <InsuranceGrp>
+        <TotalAmt>10725</TotalAmt>
+        <ManagementAndGeneralAmt>10725</ManagementAndGeneralAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>FEDERAL AND STATE TAX</Desc>
+        <TotalAmt>473982</TotalAmt>
+        <ProgramServicesAmt>282256</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>139635</ManagementAndGeneralAmt>
+        <FundraisingAmt>52091</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>BAD DEBT</Desc>
+        <TotalAmt>23317</TotalAmt>
+        <ProgramServicesAmt>13885</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>6869</ManagementAndGeneralAmt>
+        <FundraisingAmt>2563</FundraisingAmt>
+      </OtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>41199350</TotalAmt>
+        <ProgramServicesAmt>27368340</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>10778764</ManagementAndGeneralAmt>
+        <FundraisingAmt>3052246</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <InfoInScheduleOPartXInd>X</InfoInScheduleOPartXInd>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>30340</BOYAmt>
+        <EOYAmt>52450</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>6208965</BOYAmt>
+        <EOYAmt>4979409</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <PledgesAndGrantsReceivableGrp>
+        <BOYAmt>2925500</BOYAmt>
+        <EOYAmt>748000</EOYAmt>
+      </PledgesAndGrantsReceivableGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>7075927</BOYAmt>
+        <EOYAmt>8006351</EOYAmt>
+      </AccountsReceivableGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>339091</BOYAmt>
+        <EOYAmt>344023</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>6531</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>6531</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <InvestmentsPubTradedSecGrp>
+        <BOYAmt>50837710</BOYAmt>
+        <EOYAmt>52491774</EOYAmt>
+      </InvestmentsPubTradedSecGrp>
+      <InvestmentsOtherSecuritiesGrp>
+        <BOYAmt>37071434</BOYAmt>
+        <EOYAmt>37057278</EOYAmt>
+      </InvestmentsOtherSecuritiesGrp>
+      <InvestmentsProgramRelatedGrp>
+        <BOYAmt>18668364</BOYAmt>
+        <EOYAmt>18668364</EOYAmt>
+      </InvestmentsProgramRelatedGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>1000000</BOYAmt>
+        <EOYAmt>1000000</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>124157331</BOYAmt>
+        <EOYAmt>123347649</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>4650790</BOYAmt>
+        <EOYAmt>5199818</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <DeferredRevenueGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>281227</EOYAmt>
+      </DeferredRevenueGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>1548785</BOYAmt>
+        <EOYAmt>319008</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>6199575</BOYAmt>
+        <EOYAmt>5800053</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>113094846</BOYAmt>
+        <EOYAmt>115199009</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <DonorRestrictionNetAssetsGrp>
+        <BOYAmt>4862910</BOYAmt>
+        <EOYAmt>2348587</EOYAmt>
+      </DonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>117957756</BOYAmt>
+        <EOYAmt>117547596</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>124157331</BOYAmt>
+        <EOYAmt>123347649</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <ReconcilationRevenueExpnssAmt>-4033805</ReconcilationRevenueExpnssAmt>
+      <NetUnrlzdGainsLossesInvstAmt>3623645</NetUnrlzdGainsLossesInvstAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>1</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <ConsolidatedBasisFinclStmtInd>X</ConsolidatedBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>1</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>0</FederalGrantAuditRequiredInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="RetDoc1039100001">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus4YearsAmt>9564873</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>9931949</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>9075862</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>7821194</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>6513893</CurrentTaxYearAmt>
+        <TotalAmt>42907771</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus4YearsAmt>9564873</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>9931949</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>9075862</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>7821194</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>6513893</CurrentTaxYearAmt>
+        <TotalAmt>42907771</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <SubstantialContributorsTotAmt>4639100</SubstantialContributorsTotAmt>
+      <PublicSupportTotal170Amt>38268671</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>457113</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>532734</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>20900277</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>37574982</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>6847232</CurrentTaxYearAmt>
+        <TotalAmt>66312338</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <UnrelatedBusinessNetIncm170Grp>
+        <CurrentTaxYearMinus4YearsAmt>596068</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>1642233</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>2233203</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>2235568</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>2099195</CurrentTaxYearAmt>
+        <TotalAmt>8806267</TotalAmt>
+      </UnrelatedBusinessNetIncm170Grp>
+      <OtherIncome170Grp>
+        <CurrentTaxYearMinus2YearsAmt>8328</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>10370</CurrentTaxYearMinus1YearAmt>
+        <TotalAmt>18698</TotalAmt>
+      </OtherIncome170Grp>
+      <TotalSupportAmt>118045074</TotalSupportAmt>
+      <GrossReceiptsRltdActivitiesAmt>90838850</GrossReceiptsRltdActivitiesAmt>
+      <PublicSupportCY170Pct>0.32420</PublicSupportCY170Pct>
+      <PublicSupportPY170Pct>0.34870</PublicSupportPY170Pct>
+      <ThirtyThrPctSuprtTestsPY170Ind>X</ThirtyThrPctSuprtTestsPY170Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleC documentId="RetDoc1039700001">
+      <VolunteersInd>0</VolunteersInd>
+      <PaidStaffOrManagementInd>0</PaidStaffOrManagementInd>
+      <MediaAdvertisementsInd>1</MediaAdvertisementsInd>
+      <MediaAdvertisementsAmt>7449</MediaAdvertisementsAmt>
+      <MailingsMembersInd>1</MailingsMembersInd>
+      <MailingsMembersAmt>20125</MailingsMembersAmt>
+      <PublicationsOrBroadcastInd>1</PublicationsOrBroadcastInd>
+      <PublicationsOrBroadcastAmt>82352</PublicationsOrBroadcastAmt>
+      <GrantsOtherOrganizationsInd>1</GrantsOtherOrganizationsInd>
+      <GrantsOtherOrganizationsAmt>603</GrantsOtherOrganizationsAmt>
+      <DirectContactLegislatorsInd>1</DirectContactLegislatorsInd>
+      <DirectContactLegislatorsAmt>57479</DirectContactLegislatorsAmt>
+      <RalliesDemonstrationsInd>1</RalliesDemonstrationsInd>
+      <RalliesDemonstrationsAmt>20439</RalliesDemonstrationsAmt>
+      <OtherActivitiesInd>1</OtherActivitiesInd>
+      <OtherActivitiesAmt>98460</OtherActivitiesAmt>
+      <TotalLobbyingExpendituresAmt>286907</TotalLobbyingExpendituresAmt>
+      <NotDescribedSection501c3Ind>0</NotDescribedSection501c3Ind>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART II-B, LINE 1:</FormAndLineReferenceDesc>
+        <ExplanationTxt>IN 2024, MOZILLA MET WITH POLICYMAKERS AND REGULATORS IN THE UNITED STATES, UK, AND EU, AS WELL AS SEVERAL EU MEMBER STATES (INCLUDING FRANCE, GERMANY, AND SPAIN). THIS OCCURRED IN THE CONTEXT OF MOZILLA'S WORK ON A VARIETY OF POLICY ISSUES, PARTICULARLY WITH REGARD TO AI (FOR EXAMPLE, AROUND THE ADOPTION AND IMPLEMENTATION OF THE EU'S AI ACT) AND PLATFORM ACCOUNTABILITY (NOTABLY, THE EU'S DIGITAL SERVICES ACT). MOZILLA ALSO ENGAGED WITH CIVIL SOCIETY GROUPS, INDUSTRY, RESEARCHERS, AND TECHNOLOGISTS IN THIS CONTEXT.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleC>
+    <IRS990ScheduleD documentId="RetDoc1040000001">
+      <EquipmentGrp>
+        <OtherCostOrOtherBasisAmt>6531</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>6531</DepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </EquipmentGrp>
+      <TotalBookValueLandBuildingsAmt>0</TotalBookValueLandBuildingsAmt>
+      <OtherSecuritiesGrp>
+        <Desc>OTHER SECURITIES AND HEDGE FUNDS</Desc>
+        <BookValueAmt>37057278</BookValueAmt>
+        <MethodValuationCd>F</MethodValuationCd>
+      </OtherSecuritiesGrp>
+      <TotalBookValueSecuritiesAmt>37057278</TotalBookValueSecuritiesAmt>
+      <InvstProgramRelatedOrgGrp>
+        <Desc>INVESTMENT IN MOZILLA CORP, MZLA TECH CORP, AND MZL.AI</Desc>
+        <BookValueAmt>18668364</BookValueAmt>
+        <MethodValuationCd>C</MethodValuationCd>
+      </InvstProgramRelatedOrgGrp>
+      <TotalBookValueProgramRltdAmt>18668364</TotalBookValueProgramRltdAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>PAYABLE TO SUBSIDIARIES</Desc>
+        <Amt>319008</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>319008</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART X, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE FOUNDATION QUALIFIES AS A PUBLIC BENEFIT CHARITABLE ORGANIZATION EXEMPT FROM INCOME TAXES ON RELATED INCOME UNDER SECTION 501(C)(3) OF THE INTERNAL REVENUE CODE AND APPLICABLE SECTIONS OF THE CALIFORNIA REVENUE AND TAXATION CODE. THE FOUNDATION PROVIDES FOR TAX, IF ANY, ON UNRELATED BUSINESS INCOME. IN ACCORDANCE WITH THE ACCOUNTING STANDARD ON ACCOUNTING FOR UNCERTAINTY IN INCOME TAXES, NO PORTION OF AN UNCERTAIN TAX POSITION WILL BE RECOGNIZED IF THE POSITION HAS LESS THAN A 50% LIKELIHOOD OF BEING SUSTAINED UPON AUDIT BY THE RELEVANT TAXING AUTHORITY. ALSO, INTEREST EXPENSE, IF ANY, IS RECOGNIZED ON THE FULL AMOUNT OF DEFERRED BENEFITS FOR UNCERTAIN TAX POSITIONS. THE FOUNDATION'S CONSOLIDATED FINANCIAL STATEMENTS REPORTED SOME UNRECOGNIZED TAX BENEFITS, BUT THOSE BENEFITS ALL RESULTED FROM TAX POSITIONS TAKEN BY OTHER ENTITIES IN THE GROUP, NOT THE FOUNDATION.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleF documentId="RetDoc1040500001">
+      <GrantRecordsMaintainedInd>1</GrantRecordsMaintainedInd>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>EAST ASIA AND THE PACIFIC - AUSTRALIA, BRUNEI, BURMA, CAMBODIA,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>29</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>AGENDA SETTING AND MOVEMENT BUILDING ACTIVITIES</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>194997</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>EUROPE (INCLUDING ICELAND &amp; GREENLAND) - ALBANIA, ANDORRA, AUSTRIA, BELGIUM</RegionTxt>
+        <OfficesCnt>2</OfficesCnt>
+        <EmployeeCnt>190</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>AGENDA SETTING AND MOVEMENT BUILDING ACTIVITIES</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>4584672</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>MIDDLE EAST AND NORTH AFRICA - ALGERIA, BAHRAIN, DJIBOUTI, EGYPT,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>5</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>AGENDA SETTING AND MOVEMENT BUILDING ACTIVITIES</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>10080</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>NORTH AMERICA - CANADA AND MEXICO, BUT NOT THE UNITED STATES</RegionTxt>
+        <OfficesCnt>2</OfficesCnt>
+        <EmployeeCnt>76</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>AGENDA SETTING AND MOVEMENT BUILDING ACTIVITIES</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>444815</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>SOUTH AMERICA - ARGENTINA, BOLIVIA, BRAZIL, CHILE, COLUMBIA, ECUADOR,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>8</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>AGENDA SETTING AND MOVEMENT BUILDING ACTIVITIES</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>45101</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>SOUTH ASIA - AFGHANISTAN, BANGLADESH, BHUTAN, INDIA, MALDIVES, NEPAL,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>37</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>AGENDA SETTING AND MOVEMENT BUILDING ACTIVITIES</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>143897</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>SUB-SAHARAN AFRICA - ANGOLA, BENIN, BOTSWANA, BURKINA FASO,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>163</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>AGENDA SETTING AND MOVEMENT BUILDING ACTIVITIES</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>1013928</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>EAST ASIA AND THE PACIFIC - AUSTRALIA, BRUNEI, BURMA, CAMBODIA,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>1</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>GRANT-MAKING</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>GRANTS, FELLOWSHIPS, AND AWARDS</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>25691</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>EUROPE (INCLUDING ICELAND &amp; GREENLAND) - ALBANIA, ANDORRA, AUSTRIA, BELGIUM</RegionTxt>
+        <OfficesCnt>2</OfficesCnt>
+        <EmployeeCnt>19</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>GRANT-MAKING</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>GRANTS, FELLOWSHIPS, AND AWARDS</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>624378</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>MIDDLE EAST AND NORTH AFRICA - ALGERIA, BAHRAIN, DJIBOUTI, EGYPT,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>3</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>GRANT-MAKING</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>GRANTS, FELLOWSHIPS, AND AWARDS</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>43808</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>NORTH AMERICA - CANADA AND MEXICO, BUT NOT THE UNITED STATES</RegionTxt>
+        <OfficesCnt>2</OfficesCnt>
+        <EmployeeCnt>5</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>GRANT-MAKING</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>GRANTS, FELLOWSHIPS, AND AWARDS</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>94376</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>SOUTH AMERICA - ARGENTINA, BOLIVIA, BRAZIL, CHILE, COLUMBIA, ECUADOR,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>8</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>GRANT-MAKING</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>GRANTS, FELLOWSHIPS, AND AWARDS</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>179911</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>SOUTH ASIA - AFGHANISTAN, BANGLADESH, BHUTAN, INDIA, MALDIVES, NEPAL,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>4</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>GRANT-MAKING</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>GRANTS, FELLOWSHIPS, AND AWARDS</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>186084</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>SUB-SAHARAN AFRICA - ANGOLA, BENIN, BOTSWANA, BURKINA FASO,</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>26</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>GRANT-MAKING</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>GRANTS, FELLOWSHIPS, AND AWARDS</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>484449</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <SubtotalOfficesCnt>4</SubtotalOfficesCnt>
+      <SubtotalEmployeesCnt>509</SubtotalEmployeesCnt>
+      <ContinuationTotalOfficeCnt>4</ContinuationTotalOfficeCnt>
+      <ContinuationTotalEmployeeCnt>65</ContinuationTotalEmployeeCnt>
+      <TotalOfficeCnt>8</TotalOfficeCnt>
+      <TotalEmployeeCnt>574</TotalEmployeeCnt>
+      <SubtotalSpentAmt>6463181</SubtotalSpentAmt>
+      <ContinuationSpentAmt>1613006</ContinuationSpentAmt>
+      <TotalSpentAmt>8076187</TotalSpentAmt>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR WEATHER TOOL.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR AI FUND.</PurposeOfGrantTxt>
+        <CashGrantAmt>300000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>SPONSORSHIP FOR THE 2024 DEEP LEARNING INDABA CONVENING.</PurposeOfGrantTxt>
+        <CashGrantAmt>8000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR KIAZI BORA+ APP.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESPONSIBLE COMPUTING CHALLENGE RENEWAL.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESPONSIBLE COMPUTING CHALLENGE RENEWAL.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESPONSIBLE COMPUTING CHALLENGE RENEWAL.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESPONSIBLE COMPUTING CHALLENGE RENEWAL.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESPONSIBLE COMPUTING CHALLENGE RENEWAL.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESPONSIBLE COMPUTING CHALLENGE RENEWAL.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>EVENT SPONSORSHIP FOR AFRICA'S TALKING SUMMIT 2024.</PurposeOfGrantTxt>
+        <CashGrantAmt>30000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SOUTH ASIA</RegionTxt>
+        <PurposeOfGrantTxt>GENERAL OPERATING SUPPORT.</PurposeOfGrantTxt>
+        <CashGrantAmt>112500</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR DATA LICENSES THAT CENTER PRIVACY/TRANSPARENCY.</PurposeOfGrantTxt>
+        <CashGrantAmt>9890</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SOUTH AMERICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR BIAS ASSESSMENT IN LANGUAGE TECHNOLOGIES.</PurposeOfGrantTxt>
+        <CashGrantAmt>50000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR GREEN SCREEN COALITION AND CATALYST FUND.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH AND SOCIETY FUNDERS GROUP.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>GENERAL OPERATING SUPPORT TO HELP EDRI BUILD ITS INTERNAL CAPACITY TO ARTICULATE STRATEGIC AND COLLABORATIVE INTERVENTIONS ON CLIMATE JUSTICE/DIGITAL RIGHTS.</PurposeOfGrantTxt>
+        <CashGrantAmt>40000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SOUTH AMERICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH FOR FORESTS AMAZONIA.</PurposeOfGrantTxt>
+        <CashGrantAmt>20000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESEARCH ON EUROPEAN DATA CENTRES TRANSPARENCY.</PurposeOfGrantTxt>
+        <CashGrantAmt>30000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>NORTH AMERICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RIGHTS FORUM.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR ONLINE CONSUMER ENVIRONMENTAL IMPACT RESEARCH.</PurposeOfGrantTxt>
+        <CashGrantAmt>15000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR ENVIRONMENTAL SENSING COMMUNITY DATA COLLECTION.</PurposeOfGrantTxt>
+        <CashGrantAmt>35876</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR BUILDING ENERGY COST MODELS FOR LINUX KERNEL.</PurposeOfGrantTxt>
+        <CashGrantAmt>20000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>NORTH AMERICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESEARCH ON INFRASTRUCTURE SUSTAINABILITY.</PurposeOfGrantTxt>
+        <CashGrantAmt>20000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SOUTH AMERICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR COMMUNITY-LED GEOGRAPHIC DATASETS IN THE AMAZONIAN TIM.</PurposeOfGrantTxt>
+        <CashGrantAmt>20000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR BEST PRACTICE RESEARCH ON GREENING AI IMPACTS.</PurposeOfGrantTxt>
+        <CashGrantAmt>19318</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SOUTH ASIA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT TO INTEGRATE RESPONSIBLE COMPUTING AND ETHICS.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SOUTH ASIA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT TO INTEGRATE RESPONSIBLE COMPUTING AND ETHICS</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>SPONSORSHIP FOR THE CPDP.AI GATHERING.</PurposeOfGrantTxt>
+        <CashGrantAmt>28833</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TRANSATLANTIC DIGITAL RIGHTS WORK.</PurposeOfGrantTxt>
+        <CashGrantAmt>10965</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SOUTH AMERICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>MIDDLE EAST AND NORTH AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>10569</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SOUTH AMERICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>NORTH AMERICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>NORTH AMERICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SOUTH ASIA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>5500</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>EVENT SPONSORSHIP FOR MULTI STAKEHOLDER INITIATIVE ON AI.</PurposeOfGrantTxt>
+        <CashGrantAmt>20000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>EVENT SPONSORSHIP FOR OPEN TECH AFTERWORK AT OSPOS FOR GOOD.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>EVENT SPONSORSHIP FOR THE FACT FORWARD MISINFORMATION WORKSHOP.</PurposeOfGrantTxt>
+        <CashGrantAmt>11000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>EUROPE</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT TO FLAG PRIVACY RISK IN AI GENERATED SYNTHETIC DATA</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>EVENT SPONSORSHIP FOR GENDERING AI CONFERENCE AND PROJECT SUPPORT FOR HAKI DES FEMMES.</PurposeOfGrantTxt>
+        <CashGrantAmt>30000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>EVENT SPONSORSHIP FOR FORUM ON INTERNET FREEDOM IN AFRICA.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>MIDDLE EAST AND NORTH AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR TECH &amp; SOCIETY FELLOWSHIP HOST ORGANIZATION.</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESPONSIBLE COMPUTING CHALLENGE RENEWAL.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>SUB SAHARAN AFRICA</RegionTxt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESPONSIBLE COMPUTING CHALLENGE RENEWAL.</PurposeOfGrantTxt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <Total501c3OrgCnt>35</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>26</TotalOtherOrgCnt>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>PROJECT SUPPORT FOR AFRO-GRIDS AFRICAN FOLKLORE ART PROJECT.</TypeOfAssistanceTxt>
+        <RegionTxt>EUROPE (INCLUDING ICELAND &amp; GREENLAND) - ALBANIA, ANDORRA, AUSTRIA, BELGIU</RegionTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>9985</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>PROJECT SUPPORT FOR RISK FACTORS DOCUMENTARY.</TypeOfAssistanceTxt>
+        <RegionTxt>EUROPE (INCLUDING ICELAND &amp; GREENLAND) - ALBANIA, ANDORRA, AUSTRIA, BELGIU</RegionTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>PROJECT SUPPORT FOR RESEARCH ON AI SUPPLY CHAIN IMPACTS.</TypeOfAssistanceTxt>
+        <RegionTxt>EUROPE (INCLUDING ICELAND &amp; GREENLAND) - ALBANIA, ANDORRA, AUSTRIA, BELGIU</RegionTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>PROJECT SUPPORT FOR INDIGENOUS AUDIOVISUAL NARRATIVES IN YUCATAN.</TypeOfAssistanceTxt>
+        <RegionTxt>EUROPE (INCLUDING ICELAND &amp; GREENLAND) - ALBANIA, ANDORRA, AUSTRIA, BELGIU</RegionTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP EXPENSES</TypeOfAssistanceTxt>
+        <RegionTxt>EAST ASIA AND THE PACIFIC - AUSTRALIA, BRUNEI, BURMA, CAMBODIA,</RegionTxt>
+        <RecipientCnt>2</RecipientCnt>
+        <CashGrantAmt>691</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP EXPENSES</TypeOfAssistanceTxt>
+        <RegionTxt>EUROPE (INCLUDING ICELAND &amp; GREENLAND) - ALBANIA, ANDORRA, AUSTRIA, BELGIU</RegionTxt>
+        <RecipientCnt>3</RecipientCnt>
+        <CashGrantAmt>6485</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP EXPENSES</TypeOfAssistanceTxt>
+        <RegionTxt>MIDDLE EAST AND NORTH AFRICA - ALGERIA, BAHRAIN, DJIBOUTI, EGYPT,</RegionTxt>
+        <RecipientCnt>2</RecipientCnt>
+        <CashGrantAmt>2146</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP EXPENSES</TypeOfAssistanceTxt>
+        <RegionTxt>NORTH AMERICA - CANADA AND MEXICO, BUT NOT THE UNITED STATES</RegionTxt>
+        <RecipientCnt>4</RecipientCnt>
+        <CashGrantAmt>9375</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP EXPENSES</TypeOfAssistanceTxt>
+        <RegionTxt>SOUTH AMERICA - ARGENTINA, BOLIVIA, BRAZIL, CHILE, COLOMBIA, ECUADOR,</RegionTxt>
+        <RecipientCnt>9</RecipientCnt>
+        <CashGrantAmt>6711</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP EXPENSES</TypeOfAssistanceTxt>
+        <RegionTxt>SOUTH ASIA - AFGHANISTAN, BANGLADESH, BHUTAN, INDIA, MALDIVES, NEPAL,</RegionTxt>
+        <RecipientCnt>2</RecipientCnt>
+        <CashGrantAmt>18084</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP EXPENSES</TypeOfAssistanceTxt>
+        <RegionTxt>SUB-SAHARAN AFRICA - ANGOLA, BENIN, BOTSWANA, BURKINA FASO,</RegionTxt>
+        <RecipientCnt>6</RecipientCnt>
+        <CashGrantAmt>11322</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP</TypeOfAssistanceTxt>
+        <RegionTxt>NORTH AMERICA - CANADA AND MEXICO, BUT NOT THE UNITED STATES</RegionTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>20000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP</TypeOfAssistanceTxt>
+        <RegionTxt>EUROPE (INCLUDING ICELAND &amp; GREENLAND) - ALBANIA, ANDORRA, AUSTRIA, BELGIU</RegionTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>20000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP</TypeOfAssistanceTxt>
+        <RegionTxt>SOUTH AMERICA - ARGENTINA, BOLIVIA, BRAZIL, CHILE, COLUMBIA, ECUADOR,</RegionTxt>
+        <RecipientCnt>3</RecipientCnt>
+        <CashGrantAmt>60000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP</TypeOfAssistanceTxt>
+        <RegionTxt>SUB-SAHARAN AFRICA - ANGOLA, BENIN, BOTSWANA, BURKINA FASO,</RegionTxt>
+        <RecipientCnt>2</RecipientCnt>
+        <CashGrantAmt>40000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP</TypeOfAssistanceTxt>
+        <RegionTxt>MIDDLE EAST AND NORTH AFRICA - ALGERIA, BAHRAIN, DJIBOUTI, EGYPT,</RegionTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>21093</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>FELLOWSHIP</TypeOfAssistanceTxt>
+        <RegionTxt>EAST ASIA AND THE PACIFIC - AUSTRALIA, BRUNEI, BURMA, CAMBODIA,</RegionTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>ELECTRONIC FUND/WIRE TRANSFER</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <TransferToForeignCorpInd>1</TransferToForeignCorpInd>
+      <InterestInForeignTrustInd>0</InterestInForeignTrustInd>
+      <ForeignCorpOwnershipInd>1</ForeignCorpOwnershipInd>
+      <PassiveForeignInvestmestCoInd>0</PassiveForeignInvestmestCoInd>
+      <ForeignPartnershipInd>0</ForeignPartnershipInd>
+      <BoycottCountriesInd>0</BoycottCountriesInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>WE MAINTAIN INFORMATION ON GRANTS, INCLUDING SUPPORTING DOCUMENTATION SUCH AS GRANT PROPOSALS, SIGNED AGREEMENTS, REPORTS FROM GRANTEES, ETC. FOR FELLOWSHIP GRANTEES, GRANTS ARE MADE PURSUANT TO AGREEMENTS WITH THE FELLOWS AND/OR HOST INSTITUTIONS TO ENSURE THAT THE FELLOWSHIP RECIPIENTS WILL BE PURSUING A DEFINED RESEARCH PROGRAM THAT WILL AID THE DEVELOPMENT OF THE FELLOWSHIP RECIPIENT AS WELL AS ADVANCING RESEARCH IN AREAS MATCHING MOZILLA'S EXEMPT PURPOSES. IN OTHER CASES, WE ENTER INTO APPROPRIATE CONTRACTUAL AGREEMENTS WITH INDIVIDUAL OR CORPORATE GRANTEES REQUIRING THEM TO ACCOMPLISH CHARITABLE WORK OF DIRECT BENEFIT TO THE PUBLIC AND SPECIFICALLY DESCRIBED IN A STATEMENT OF WORK. FOR GRANTS TO NON-U.S. ORGANIZATIONS, WE GENERALLY USE A GRANT AGREEMENT THAT RESTRICTS THE USE OF THE FUNDS TO SPECIFIC CHARITABLE PROJECTS AND INCLUDES REQUIREMENTS FOR RECORDKEEPING AND REPORTING ON THE USE OF FUNDS. IF WE WISH TO PROVIDE GENERAL UNRESTRICTED SUPPORT, WE GENERALLY DO SO ONLY AFTER DETERMINING THAT THE GRANTEE QUALIFIES AS THE EQUIVALENT OF A U.S. SECTION 501(C)(3) ORGANIZATION, TYPICALLY BY RELYING ON THE ADVICE OF A QUALIFIED TAX PRACTITIONER SUCH AS THAT PROVIDED BY NGOSOURCE.ORG. THE GRANT AGREEMENTS WE USE INCLUDE REQUIREMENTS FOR THE GRANTEE TO REPORT ON USE OF THE FUNDS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleF>
+    <IRS990ScheduleI documentId="RetDoc1041900001">
+      <GrantRecordsMaintainedInd>1</GrantRecordsMaintainedInd>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>ACCESS NOW INC</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>54 WEST 21ST STREET SUITE 404</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10010</ZIPCd>
+        </USAddress>
+        <RecipientEIN>270597430</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>15000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR THE DIGITAL RIGHTS EMERGENCY FUND.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>START SOMEWHERE LLC</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>1629 K ST NW SUITE 300</AddressLine1Txt>
+          <CityNm>WASHINGTON</CityNm>
+          <StateAbbreviationCd>DC</StateAbbreviationCd>
+          <ZIPCd>20006</ZIPCd>
+        </USAddress>
+        <RecipientEIN>274530493</RecipientEIN>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>SPONSORSHIP FOR THE SUMMIT EVENT.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>ARTICLE 19 INC</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>1350 AVENUE OF THE AMERICAS C/O</AddressLine1Txt>
+          <AddressLine2Txt>CHAPEL AND YORK</AddressLine2Txt>
+          <CityNm>NEW YORK CITY</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10019</ZIPCd>
+        </USAddress>
+        <RecipientEIN>271337098</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>15000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>SPONSORSHIP FOR 2024 GLOBAL GATHERING.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>WINSTON-SALEM STATE UNIVERSITY FOUNDATION INC</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>601 S MLK JR DRIVE 304 BLAIR HALL</AddressLine1Txt>
+          <CityNm>WINSTONSALEM</CityNm>
+          <StateAbbreviationCd>NC</StateAbbreviationCd>
+          <ZIPCd>27110</ZIPCd>
+        </USAddress>
+        <RecipientEIN>560989620</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>49000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RENEWAL OF RESPONSIBLE COMPUTING CHALLENGE.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>ASPIRATION</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 880264</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94188</ZIPCd>
+        </USAddress>
+        <RecipientEIN>912106274</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>60000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR AI NOW INSTITUTE'S AI BUSINESS MODELS RESEARCH.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>ASPIRATION</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 880264</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94188</ZIPCd>
+        </USAddress>
+        <RecipientEIN>912106274</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>50000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR AI NOW INSTITUTE'S POLICY TRACKER.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>HOWARD UNIVERSITY</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>2400 SIXTH ST NW</AddressLine1Txt>
+          <CityNm>WASHINGTON</CityNm>
+          <StateAbbreviationCd>DC</StateAbbreviationCd>
+          <ZIPCd>20059</ZIPCd>
+        </USAddress>
+        <RecipientEIN>530204707</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>49000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RENEWAL OF RESPONSIBLE COMPUTING CHALLENGE.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>THE ELEUTHERAL INSTITUTE</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>839 KENNEDY ST</AddressLine1Txt>
+          <CityNm>WASHINGTON</CityNm>
+          <StateAbbreviationCd>DC</StateAbbreviationCd>
+          <ZIPCd>20011</ZIPCd>
+        </USAddress>
+        <RecipientEIN>922215190</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR DATA PROVENANCE INITIATIVE TO DEVELOP DATA SECURITY TOOLS.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>INDIGIGENIUS</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>522 W RIVERSIDE AVE SUITE 4934</AddressLine1Txt>
+          <CityNm>SPOKANE</CityNm>
+          <StateAbbreviationCd>WA</StateAbbreviationCd>
+          <ZIPCd>99201</ZIPCd>
+        </USAddress>
+        <RecipientEIN>920498044</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>25000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR FIRST LANGUAGES AI REALITY (FLAIR) INITIATIVE.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>622 WEST 113TH STREET MC4518</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10025</ZIPCd>
+        </USAddress>
+        <RecipientEIN>135598093</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>100000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESEARCH ON GREATER TRANSPARENCY AND ACCOUNTABILITY IN AI.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>622 WEST 113TH STREET MC4518</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10025</ZIPCd>
+        </USAddress>
+        <RecipientEIN>135598093</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>50000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR THE COLUMBIA CONVENING ON OPENNESS IN AI.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>RHIZOMATICA COMMUNICATIONS</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>241 S 6TH STREET 605 UNIT 605</AddressLine1Txt>
+          <CityNm>PHILADELPHIA</CityNm>
+          <StateAbbreviationCd>PA</StateAbbreviationCd>
+          <ZIPCd>19106</ZIPCd>
+        </USAddress>
+        <RecipientEIN>832312281</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>40000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR THE LATAM COALITION.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>BETACAMPS INC</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>29 LITTLE WEST 12TH STREET</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10014</ZIPCd>
+        </USAddress>
+        <RecipientEIN>821684364</RecipientEIN>
+        <CashGrantAmt>30000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>SPONSORSHIP FOR AI CAMP.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>THE ASSOCIATION FOR PROGRESSIVE COMMUNICATIONS</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>1013 TORNEY AVENUE</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94129</ZIPCd>
+        </USAddress>
+        <RecipientEIN>943287156</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>20000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR AFRICAN SCHOOL ON INTERNET GOVERNANCE (AFRISIG) 2024.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>STILLMAN COLLEGE</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>3601 STILLMAN BLVD</AddressLine1Txt>
+          <CityNm>TUSCALOOSA</CityNm>
+          <StateAbbreviationCd>AL</StateAbbreviationCd>
+          <ZIPCd>35401</ZIPCd>
+        </USAddress>
+        <RecipientEIN>630315935</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>49000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RENEWAL OF RESPONSIBLE COMPUTING CHALLENGE.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>VANDERBILT UNIVERSITY</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>2301 VANDERBILT PL PMB 407727</AddressLine1Txt>
+          <CityNm>NASHVILLE</CityNm>
+          <StateAbbreviationCd>TN</StateAbbreviationCd>
+          <ZIPCd>37240</ZIPCd>
+        </USAddress>
+        <RecipientEIN>620476822</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>12000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RESEARCH ON PUBLIC AI NATIONAL SECURITY CASE.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>PRAIRIE VIEW A&amp;M UNIVERSITY</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>700 UNIVERSITY DRIVE</AddressLine1Txt>
+          <CityNm>PRAIRIE VIEW</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>77446</ZIPCd>
+        </USAddress>
+        <RecipientEIN>746001078</RecipientEIN>
+        <IRCSectionDesc>GOVT</IRCSectionDesc>
+        <CashGrantAmt>49000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RENEWAL OF RESPONSIBLE COMPUTING CHALLENGE.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>UNIVERSITY OF WASHINGTON</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>12455 COLLECTIONS DRIVE</AddressLine1Txt>
+          <CityNm>CHICAGO</CityNm>
+          <StateAbbreviationCd>IL</StateAbbreviationCd>
+          <ZIPCd>60693</ZIPCd>
+        </USAddress>
+        <RecipientEIN>916001537</RecipientEIN>
+        <IRCSectionDesc>GOVT</IRCSectionDesc>
+        <CashGrantAmt>49000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PROJECT SUPPORT FOR RENEWAL OF RESPONSIBLE COMPUTING CHALLENGE.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <Total501c3OrgCnt>16</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>3</TotalOtherOrgCnt>
+      <GrantsOtherAsstToIndivInUSGrp>
+        <GrantTypeTxt>FELLOWSHIP</GrantTypeTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>20000</CashGrantAmt>
+      </GrantsOtherAsstToIndivInUSGrp>
+      <GrantsOtherAsstToIndivInUSGrp>
+        <GrantTypeTxt>FELLOWSHIP EXPENSES</GrantTypeTxt>
+        <RecipientCnt>5</RecipientCnt>
+        <CashGrantAmt>10591</CashGrantAmt>
+      </GrantsOtherAsstToIndivInUSGrp>
+      <GrantsOtherAsstToIndivInUSGrp>
+        <GrantTypeTxt>PROJECT SUPPORT FOR VISUAL PROTOTYPE OF ENVIRONMENTAL DATASETS.</GrantTypeTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>20000</CashGrantAmt>
+      </GrantsOtherAsstToIndivInUSGrp>
+      <GrantsOtherAsstToIndivInUSGrp>
+        <GrantTypeTxt>PROJECT SUPPORT FOR PACIFIC FUTURES, OCEANIC TRANSITIONS RESEARCH.</GrantTypeTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>23000</CashGrantAmt>
+      </GrantsOtherAsstToIndivInUSGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>MOZILLA FOUNDATION MAINTAINS INFORMATION ON GRANTS, INCLUDING SUPPORTING DOCUMENTATION SUCH AS GRANT PROPOSALS, SIGNED AGREEMENTS, REPORTS FROM GRANTEES, ETC. FOR FELLOWSHIP GRANTEES, GRANTS ARE MADE PURSUANT TO AGREEMENTS WITH THE FELLOWS AND/OR HOST INSTITUTIONS TO ENSURE THAT THE FELLOWSHIP RECIPIENTS WILL BE PURSUING A DEFINED RESEARCH PROGRAM THAT WILL AID THE DEVELOPMENT OF THE FELLOWSHIP RECIPIENT AS WELL AS ADVANCING RESEARCH IN AREAS MATCHING MOZILLA FOUNDATION'S EXEMPT PURPOSES. ALTHOUGH MOST OF OUR OTHER GRANTS ARE TO IRS-RECOGNIZED 501(C)(3) ORGANIZATIONS, WE SOMETIMES MAKE GRANTS TO OTHER ENTITIES AND INDIVIDUALS TO ACCOMPLISH SPECIFIC WORK IN FURTHERANCE OF MOZILLA FOUNDATION'S PURPOSES. IN THOSE CASES, WE ENTER INTO APPROPRIATE CONTRACTUAL AGREEMENTS REQUIRING THE GRANTEE TO ACCOMPLISH CHARITABLE WORK OF DIRECT BENEFIT TO THE PUBLIC AND SPECIFICALLY DESCRIBED IN THE STATEMENT OF WORK. THESE AGREEMENTS REQUIRE THE GRANTEE TO REPORT ON THEIR USE OF FUNDS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleI>
+    <IRS990ScheduleJ documentId="RetDoc1042400001">
+      <CompensationCommitteeInd>X</CompensationCommitteeInd>
+      <IndependentConsultantInd>X</IndependentConsultantInd>
+      <Form990OfOtherOrganizationsInd>X</Form990OfOtherOrganizationsInd>
+      <WrittenEmploymentContractInd>X</WrittenEmploymentContractInd>
+      <CompensationSurveyInd>X</CompensationSurveyInd>
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>1</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>0</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>0</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>0</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>1</InitialContractExceptionInd>
+      <RebuttablePresumptionProcInd>0</RebuttablePresumptionProcInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>MITCHELL BAKER CHAIR</PersonNm>
+        <TitleTxt>PAID ONLY BY A RELATED FOR-PROFIT</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>450000</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>5642000</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>6858</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>35307</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>6134165</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>MARK SURMAN</PersonNm>
+        <TitleTxt>PRESIDENT, DIRECTOR</TitleTxt>
+        <BaseCompensationFilingOrgAmt>610704</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>42474</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>5280</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>658458</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>J BOB ALOTTA</PersonNm>
+        <TitleTxt>SVP, GLOBAL PROGRAMS</TitleTxt>
+        <BaseCompensationFilingOrgAmt>434746</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>26727</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>55894</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>517367</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>ANGELA PLOHMAN</PersonNm>
+        <TitleTxt>COO, SECRETARY &amp; TREASURER</TitleTxt>
+        <BaseCompensationFilingOrgAmt>363756</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>25237</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>3102</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>392095</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>ASHLEY BOYD</PersonNm>
+        <TitleTxt>SVP, GLOBAL ADVOCACY</TitleTxt>
+        <BaseCompensationFilingOrgAmt>309984</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>21385</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>51738</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>383107</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>LAINIE DECOURSY</PersonNm>
+        <TitleTxt>DIR., ORGANIZATIONAL EFFECTIVENESS</TitleTxt>
+        <BaseCompensationFilingOrgAmt>188659</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>92612</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>12857</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>60095</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>354223</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>NABIHA SYED</PersonNm>
+        <TitleTxt>EXECUTIVE DIRECTOR (BEG 04/2024)</TitleTxt>
+        <BaseCompensationFilingOrgAmt>310566</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>21724</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>7351</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>339641</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>JESSICA KEATING</PersonNm>
+        <TitleTxt>SR. LEAD, PARTNERSHIPS + FUNDRAISING</TitleTxt>
+        <BaseCompensationFilingOrgAmt>184383</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>75673</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>12714</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>40052</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>312822</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>DAVID WALKER</PersonNm>
+        <TitleTxt>SENIOR COUNSEL</TitleTxt>
+        <BaseCompensationFilingOrgAmt>230654</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>15760</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>27371</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>273785</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>CANDICE MARTIN</PersonNm>
+        <TitleTxt>DIRECTOR, PEOPLE &amp; CULTURE</TitleTxt>
+        <BaseCompensationFilingOrgAmt>166635</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>57258</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>11937</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>28205</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>264035</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>SHING SUITER</PersonNm>
+        <TitleTxt>SR. DIRECTOR, TECHNOLOGY PLATFORMS</TitleTxt>
+        <BaseCompensationFilingOrgAmt>226462</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>15747</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>13483</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>255692</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 4A</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE FOLLOWING INDIVIDUALS RECEIVED SEVERANCE PAYMENTS DURING 2024: JESSICA KEATING - 75,673 LAINIE DECOURSY - 92,612 CANDICE MARTIN - 57,258</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 8</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE NEW EXECUTIVE DIRECTOR'S COMPENSATION WAS SET BY ARM'S LENGTH NEGOTIATION WITH HER AT A TIME WHEN SHE WAS NOT A DISQUALIFIED PERSON. ALTHOUGH THE ORGANIZATION DID NOT UNDERTAKE A SEPARATE REBUTTABLE-PRESUMPTION BENCHMARKING OF THAT COMPENSATION THEN, THE COMPENSATION WAS CONSISTENT WITH WHAT PREVIOUS COMPENSATION STUDIES FOR THE ROLE HAD FOUND TO BE REASONABLE. THE ORGANIZATION PLANS TO TAKE ALL STEPS NECESSARY FOR ANY FUTURE INCREASES TO THE EXECUTIVE DIRECTOR'S COMPENSATION TO QUALIFY FOR THE REBUTTABLE PRESUMPTION OF REASONABLENESS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleO documentId="RetDoc1044400001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION A, LINE 8B</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE INVESTMENT AND AUDIT COMMITTEES PERIODICALLY MEET IN EXECUTIVE SESSION. ALTHOUGH SEPARATE MEETING MINUTES ARE NOT KEPT, THEY REPORT BACK TO THE FULL BOARD WHERE MINUTES ARE KEPT.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 11B</FormAndLineReferenceDesc>
+        <ExplanationTxt>SEVERAL INDIVIDUALS ASSOCIATED WITH THE ORGANIZATION DILIGENTLY GATHER AND PREPARE ALL DATA AND NARRATIVE EXPLANATIONS TO ACCURATELY COMPLETE THE IRS FORM 990. SEVERAL DRAFTS OF THE FORM 990 ARE REVIEWED AND EDITED BY MANAGEMENT, OFFICERS, INTERNAL COUNSEL, OUTSIDE COUNSEL, AND ACCOUNTANTS. ALL DIRECTORS RECEIVE A FINAL COPY OF THE 990 PRIOR TO FILING.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 12C</FormAndLineReferenceDesc>
+        <ExplanationTxt>UNDER THE CONFLICT OF INTEREST POLICY, INDIVIDUALS ARE TO REPORT ANY POTENTIAL CONFLICTS WITH RESPECT TO PARTICULAR DECISIONS AS THEY ARISE, AND IF THE BOARD DETERMINES THAT A CONFLICT EXISTS, THE CONFLICTED INDIVIDUAL DOES NOT PARTICIPATE IN VOTING ON THAT DECISION (AND IN SOME CASES THE FOUNDATION MAY NOT PURSUE THE TRANSACTION AT ALL). THIS POLICY HAS BEEN CONSISTENTLY ENFORCED. IN ADDITION, THE FOUNDATION PERIODICALLY ASKS BOARD MEMBERS AND KEY EMPLOYEES TO RESPOND TO A QUESTIONNAIRE DETAILING POTENTIAL CONFLICTS OF INTEREST. IT DID NOT SEND THE QUESTIONAIRE OUT THIS YEAR BUT INTENDS TO DO SO IN 2025. WHILE THE FOUNDATION HAS NOT ENGAGED IN ADDITIONAL MONITORING OR ENFORCEMENT BEYOND THIS, IT BELIEVES ITS EXISTING MECHANISMS HAVE BEEN ADEQUATE TO PROTECT AGAINST CONFLICTS OF INTEREST AFFECTING THE BOARD'S DECISION MAKING.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 15A</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE BOARD OF DIRECTORS DETERMINED THE PRESIDENT'S COMPENSATION AFTER TAKING INTO ACCOUNT ASSESSMENTS OF HIS INDIVIDUAL PERFORMANCE AND THAT OF THE ORGANIZATION AS A WHOLE, ALONG WITH MARKET DATA ABOUT EXECUTIVE COMPENSATION AT SIMILAR ORGANIZATIONS DRAWN FROM BOTH GENERAL SURVEYS AND THE FORMS 990 FOR A SET OF PEER INSTITUTIONS. THE PRESIDENT AND INTERESTED PARTIES WERE ABSENT FROM THE FINAL BOARD DISCUSSION, AND THE DETERMINATION WAS ULTIMATELY APPROVED DURING A PART OF A MEETING OF THE BOARD OF DIRECTORS NOT INCLUDING ANYONE WITH A CONFLICT OF INTEREST REGARDING THE COMPENSATION PACKAGE. THE PROCESS AND THE DATA ON WHICH THE DECISION WAS MADE IS DOCUMENTED IN THE MINUTES OF THE ORGANIZATION.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION C, LINE 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE FORMS 990, 990-T, AND THE FORM 1023 IN THEIR ORIGINAL FORM ARE AVAILABLE UPON REQUEST. WE ALSO MAKE THESE FORMS AVAILABLE ONLINE, ALONG WITH OUR FINANCIAL STATEMENTS AND GOVERNING DOCUMENTS, EXCEPT THAT TO PROTECT INDIVIDUAL PRIVACY SOME PERSONAL ADDRESS INFORMATION IS REDACTED FROM THE VERSION MADE AVAILABLE ONLINE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART X, COLUMN (A)</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE TY23 FORM 990 ERRONEOUSLY REPORTED A PORTION OF PROGRAM RELATED INVESTMENT AS TEMPORARY CASH INVESTMENT AND REPORTED A PORTION OF NET ASSETS WITHOUT DONOR RESTRICTIONS IN THE COUNT OF NET ASSETS WITH DONOR RESTRICTIONS. THESE AMOUNTS ARE NOW ACCURATELY REFLECTED IN THE BEGINNING BALANCES FOR TY24 AND IN THE RESPECTIVE SCHEDULES OF THIS RETURN.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="RetDoc1043400001">
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>MOZILLAORG</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>149 NEW MONTGOMERY ST</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94105</ZIPCd>
+        </USAddress>
+        <EIN>333437202</EIN>
+        <PrimaryActivitiesTxt>GRANTMAKING AND INVESTING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>MOZILLA FOUNDATION</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MOZILLA VENTURES I LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>149 NEW MONTGOMERY STREET 4TH FLOOR</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94105</ZIPCd>
+        </USAddress>
+        <EIN>384231846</EIN>
+        <PrimaryActivitiesTxt>VENTURE FUND</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>MOZILLA MANAGEMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>EXCLUDED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>1041586</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>32328929</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>1.00000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MOZILLA VENTURES GP I LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>149 NEW MONTGOMERY STREET 4TH FLOOR</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94105</ZIPCd>
+        </USAddress>
+        <EIN>991774854</EIN>
+        <PrimaryActivitiesTxt>VENTURE FUND</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>MOZILLA MANAGEMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>EXCLUDED</PredominantIncomeTypeTxt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>1.00000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MOZILLA CORPORATION</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>149 NEW MONTGOMERY STREET 4TH FLOOR</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94105</ZIPCd>
+        </USAddress>
+        <EIN>203226186</EIN>
+        <PrimaryActivitiesTxt>INTERNET SERVICE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>MOZILLA FOUNDATION</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>C</EntityTypeTxt>
+        <ShareOfTotalIncomeAmt>658550681</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>1455069380</ShareOfEOYAssetsAmt>
+        <OwnershipPct>1.00000</OwnershipPct>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MZLA TECHNOLOGIES CORPORATION</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>149 NEW MONTGOMERY STREET 4TH FLOOR</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94105</ZIPCd>
+        </USAddress>
+        <EIN>843352661</EIN>
+        <PrimaryActivitiesTxt>INTERNET TECHNOLOGIES</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>MOZILLA FOUNDATION</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>C</EntityTypeTxt>
+        <ShareOfTotalIncomeAmt>10760074</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>11983311</ShareOfEOYAssetsAmt>
+        <OwnershipPct>1.00000</OwnershipPct>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MOZILLA VENTURES MANAGEMENT PBC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>149 NEW MONTGOMERY STREET 4TH FLOOR</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94105</ZIPCd>
+        </USAddress>
+        <EIN>384241278</EIN>
+        <PrimaryActivitiesTxt>VENTURE FUND MANAGEMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>MOZILLA FOUNDATION</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>C</EntityTypeTxt>
+        <ShareOfTotalIncomeAmt>1228368</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>417093</ShareOfEOYAssetsAmt>
+        <OwnershipPct>1.00000</OwnershipPct>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MZLAI PBC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>149 NEW MONTGOMERY STREET 4TH FLOOR</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94105</ZIPCd>
+        </USAddress>
+        <EIN>352775450</EIN>
+        <PrimaryActivitiesTxt>ARTIFICIAL INTELLIGENCE R&amp;D</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>MOZILLA FOUNDATION</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>C</EntityTypeTxt>
+        <ShareOfTotalIncomeAmt>285562</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>8994349</ShareOfEOYAssetsAmt>
+        <OwnershipPct>1.00000</OwnershipPct>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MZFO GERMANY GMBH</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <ForeignAddress>
+          <AddressLine1Txt>SCHLESISCHE STRBE 27/GEBAUDE 3 4</AddressLine1Txt>
+          <CityNm>BERLIN</CityNm>
+          <CountryCd>GM</CountryCd>
+          <ForeignPostalCd>10997</ForeignPostalCd>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>INTERNET TECHNOLOGIES</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>GM</LegalDomicileForeignCountryCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>MOZILLA FOUNDATION</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>C</EntityTypeTxt>
+        <ShareOfTotalIncomeAmt>2084527</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>250589</ShareOfEOYAssetsAmt>
+        <OwnershipPct>1.00000</OwnershipPct>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>1</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>1</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>0</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>0</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>0</LoansOrGuaranteesFromOthOrgInd>
+      <DivRelatedOrganizationInd>1</DivRelatedOrganizationInd>
+      <AssetSaleToOtherOrgInd>0</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>0</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>0</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>0</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>1</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>1</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>1</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>1</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>0</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>1</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>1</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>0</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>0</TransferFromOtherOrgInd>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>MOZILLA CORP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>A</TransactionTypeTxt>
+        <InvolvedAmt>22622178</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>TRADEMARK LICENSE AGREEMENT</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>MOZILLA CORP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>M</TransactionTypeTxt>
+        <InvolvedAmt>514296</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>SERVICE AGREEMENT</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>MOZILLA CORP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>F</TransactionTypeTxt>
+        <InvolvedAmt>5000000</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>CASH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>MOZILLA VENTURES I LP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>L</TransactionTypeTxt>
+        <InvolvedAmt>90112</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>SERVICE AGREEMENT</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>MZFO GERMANY GMBH</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>M</TransactionTypeTxt>
+        <InvolvedAmt>2171160</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>SERVICE AGREEMENT</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>MZLAI PBC</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>L</TransactionTypeTxt>
+        <InvolvedAmt>95797</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>SERVICE AGREEMENT</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>MZLA TECHNOLOGIES CORP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>L</TransactionTypeTxt>
+        <InvolvedAmt>117400</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>SERVICE AGREEMENT</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>MZLA TECHNOLOGIES CORP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>A</TransactionTypeTxt>
+        <InvolvedAmt>415040</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>TRADEMARK LICENSE AGREEMENT</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>MZLA TECHNOLOGIES CORP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>Q</TransactionTypeTxt>
+        <InvolvedAmt>150582</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>CASH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE R, PART V, LINE 1</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE FOUNDATION LICENSES CERTAIN TRADEMARKS TO ITS WHOLLY-OWNED SUBSIDIARIES, MOZILLA CORPORATION AND MZLA TECHNOLOGIES CORPORATION, IN RETURN FOR LICENSE FEES. THE AMOUNT ACTUALLY ACCRUED BY THE FOUNDATION IS REPORTED ON PART V, LINE 2(1) AND PART V, LINE 2(12). THE FOUNDATION ALSO HAS ADMINISTRATIVE SERVICES AGREEMENTS UNDER WHICH MOZILLA CORPORATION AND MZFO GERMANY GMBH PROVIDE LEGAL AND CERTAIN OTHER SERVICES. THE PAYMENTS FOR SERVICES ARE REPORTED ON PART V, LINE 2(2) AND PART V, LINE 2(9). THE COMPONENT OF THE PAYMENT FOR OFFICE SPACE IN THE AGREEMENT WITH MOZILLA CORPORATION, IS REPORTED ON PART V, LINE 2(3). THE FOUNDATION PROVIDES CERTAIN LEGAL AND OTHER ADMINISTRATIVE SERVICES TO MZLA TECHNOLOGIES CORPORATION, MOZILLA VENTURES I, AND MZL.AI PBC WHICH ARE REPORTED ON PART V, LINE 2(7); PART V, LINE 2(10); AND PART V, LINE 2(11).</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

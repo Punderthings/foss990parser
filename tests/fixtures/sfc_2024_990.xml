@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return returnVersion="2024v5.0" xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-01-15T21:59:07-07:00</ReturnTs>
+    <TaxPeriodEndDt>2025-02-28</TaxPeriodEndDt>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2024-03-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>412203632</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>SOFTWARE FREEDOM CONSERVANCY INC</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>SOFT</BusinessNameControlTxt>
+      <PhoneNum>2124613245</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>137 MONTAGUE ST STE 380</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>112013548</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Karen Sandler</PersonNm>
+      <PersonTitleTxt>President and Executive Director</PersonTitleTxt>
+      <PhoneNum>2124613245</PhoneNum>
+      <SignatureDt>2026-01-15</SignatureDt>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>1</IRSResponsiblePrtyInfoCurrInd>
+    <TaxYr>2024</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS990 documentId="R000001" referenceDocumentId="R000008 R000009" softwareId="24021167" softwareVersionNum="v1.00">
+      <PrincipalOfficerNm>Karen Sandler</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>137 Montague St</AddressLine1Txt>
+        <AddressLine2Txt>STE 380</AddressLine2Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>3214723</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>https://sfconservancy.org</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>2006</FormationYr>
+      <LegalDomicileStateCd>NY</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>SFC promotes,improves,develops,facilitates, and defends Free and Open Source Software (FOSS). SFC advocates for the software rights and freedom of the public. SFC provides a home &amp; infrastructure to FOSS projects &amp; initiatives, &amp; increases diversity, equity and inclusion in FOSS.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>7</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>6</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>8</TotalEmployeeCnt>
+      <TotalVolunteersCnt>5000</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>1964878</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>2491246</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>339990</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>549852</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>180052</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>160309</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>2224</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>13316</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>2487144</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>3214723</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>114905</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>53174</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>1267710</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>1304435</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>29915</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>42064</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>157323</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>3065924</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>2405677</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>4478454</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>3805350</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>-1991310</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>-590627</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>5314976</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>5401246</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>480907</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>1109478</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>4834069</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>4291768</NetAssetsOrFundBalancesEOYAmt>
+      <MissionDesc>Software Freedom Conservancy (SFC) promotes, improves, develops, facilitates &amp; defends Free &amp; Open Source Software (FOSS) &amp; the right to software repair. SFC advocates for the public's software rights &amp; freedoms. SFC provides a home &amp; infrastructure to FOSS initiatives. SFC helps volunteers focus on improving FOSS for the public. Projects include: creation of FOSS for general public, copyleft licensing advocacy, &amp; internships for contributors subject to systemic bias who are underrepresented in FOSS.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>1357130</ExpenseAmt>
+      <GrantAmt>47431</GrantAmt>
+      <RevenueAmt>521768</RevenueAmt>
+      <Desc>FOSS development, documentation, infrastructure, sustainability, &amp; project support: During the tax year, SFC engaged 12 different software developers as independent contractors to improve the software in its FreeDV, Inkscape, Microblocks, phpMyAdmin, Reproducible Builds, and Selenium projects, as well as improving FOSS for SFC's own accounting infrastructure. All software source code was released freely to the public under licenses that encourage the public to use, share, modify, and reinstall it. These contractors also coordinated volunteer software developers to contribute further to the software projects. SFC staff also assisted volunteers in our projects on a daily basis with administration, coordination, legal and infrastructural tasks and costs (as listed at https://sfconservancy.org/members/services/ ). Finally, SFC regularly mentors leadership of projects both inside and outside our organization to improve their non-profit management skills.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>885405</ExpenseAmt>
+        <GrantAmt>0</GrantAmt>
+        <RevenueAmt>0</RevenueAmt>
+        <Desc>Outreachy and The Institute For Computing Research (ICR): In the tax year, we funded 60 interns via Outreachy - an initiative that encourages participation in FOSS for those who are subject to systemic bias and impacted by underrepresentation in the technical industry where they live. Outreachy interns improve FOSS and its documentation, and increase the diversity of the FOSS community while also learning valuable skills. ICR mentors and trains students in high school to do rigorous scientific research using FOSS. During this tax year, ICR had 27 internships. Both internship programs are paid programs which enable those from less privileged backgrounds to participate.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <ProgSrvcAccomActy3Grp>
+        <ExpenseAmt>422759</ExpenseAmt>
+        <GrantAmt>7942</GrantAmt>
+        <RevenueAmt>13666</RevenueAmt>
+        <Desc>License Compliance &amp; Enforcement: Some FOSS is available under "copyleft" licenses, such as the General Public License (GPL). These licenses allow everyone to freely share, copy, modify and (re)install modified versions of software. SFC identifies situations where distributors fail to meet the copyleft requirements &amp; requires them to provide the same rights to all those who receive the software distribution. Through this process, SFC ensures that the public has equal rights to use, improve and study software &amp; experiment with their own modifications so that the rights of consumers to repair the software on their devices is restored. During the tax year, SFC continued litigation against a maker of Linux-based televisions in California state court in which SFC seeks the complete, corresponding source (CCS) for the copylefted components in the televisions. During the tax year, SFC also provided a grant to an individual to undertake a legal action in Germany where he successfully sought the CCS for the LGPL'd components on the router he purchased. We also designed &amp; built a new wireless router, the OpenWrt One which gives people the ability to modify and fix their router out of the box. The OpenWrt One is an example of how to comply with copyleft licenses &amp; overcome challenges cited in the industry. We also conduct talks and discussions at conferences to educate companies and consumers.</Desc>
+      </ProgSrvcAccomActy3Grp>
+      <ProgSrvcAccomActyOtherGrp>
+        <ExpenseAmt>303910</ExpenseAmt>
+        <GrantAmt>0</GrantAmt>
+        <RevenueAmt>27734</RevenueAmt>
+        <Desc>Facilitating and Participating in FOSS conferences: During the tax year, SFC planned, organized and/or ran three conferences, and prepared for one other to take place in the following year. Additionally, SFC coordinated and funded many other smaller "hackfest" events for its projects. Furthermore, SFC funded travel expenses for staff's and volunteers' attendance at more than 14 different third-party software conferences. These events allow volunteer FOSS contributors and SFC staff to (a) speak about their work to the public, (b) teach the public how to use and improve their software, (c) generally promote the use, adoption and improvement of FOSS, and (d) explain and explore the policy issues surrounding software freedom and software rights. Most FOSS conferences include opportunities for software developers to meet and rapidly work closely together to make improvements to the software and release those improvements immediately to the public. Finally, SFC staff also assisted in organizing the Legal &amp; Policy DevRoom at FOSDEM, the largest annual FOSS conference in Europe.</Desc>
+      </ProgSrvcAccomActyOtherGrp>
+      <TotalOtherProgSrvcExpenseAmt>303910</TotalOtherProgSrvcExpenseAmt>
+      <TotalOtherProgSrvcGrantAmt>0</TotalOtherProgSrvcGrantAmt>
+      <TotalOtherProgSrvcRevenueAmt>27734</TotalOtherProgSrvcRevenueAmt>
+      <TotalProgramServiceExpensesAmt>2969204</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="R000002">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="R000003">1</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>0</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd>0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+      <ConservationEasementsInd>0</ConservationEasementsInd>
+      <CollectionsOfArtInd>0</CollectionsOfArtInd>
+      <CreditCounselingInd>0</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd>0</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd>0</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd>0</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd>0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd>0</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd>0</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd>0</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="R000004">1</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="R000004">0</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>1</ForeignOfficeInd>
+      <ForeignActivitiesInd referenceDocumentId="R000005">1</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd referenceDocumentId="R000005">1</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd referenceDocumentId="R000005">1</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd referenceDocumentId="R000006">1</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>0</FundraisingActivitiesInd>
+      <GamingActivitiesInd>0</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="R000007">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>0</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd>0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd>0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd>0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd>0</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd>0</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd>0</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd>0</DisregardedEntityInd>
+      <RelatedEntityInd>0</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>0</RelatedOrganizationCtrlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd>0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>43</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>1</BackupWthldComplianceInd>
+      <EmployeeCnt>8</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>1</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>1</QuidProQuoContributionsInd>
+      <QuidProQuoContriDisclInd>1</QuidProQuoContriDisclInd>
+      <Form8282PropertyDisposedOfInd>0</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>0</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>7</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>6</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>0</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>0</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>1</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>1</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>1</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>1</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>1</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>1</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>0</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>NY</StatesWhereCopyOfReturnIsFldCd>
+      <OwnWebsiteInd>X</OwnWebsiteInd>
+      <BooksInCareOfDetail>
+        <PersonNm>Tracy Homer</PersonNm>
+        <PhoneNum>2124613245</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>137 MONTAGUE ST STE 380</AddressLine1Txt>
+          <CityNm>Brooklyn</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>11201</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Karen M Sandler</PersonNm>
+        <TitleTxt>President and Executive Director</TitleTxt>
+        <AverageHoursPerWeekRt>45</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>178851</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>62291</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Rick Sanders</PersonNm>
+        <TitleTxt>General Counsel</TitleTxt>
+        <AverageHoursPerWeekRt>40</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>124838</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>68511</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Sage Sharp</PersonNm>
+        <TitleTxt>Senior Director of Diversity and Inclusion</TitleTxt>
+        <AverageHoursPerWeekRt>40</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>108272</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>54516</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Bradley M Kuhn</PersonNm>
+        <TitleTxt>Director, Policy Fellow, Outgoing Treasurer</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>113112</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>41301</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Jeremy Allison</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>2</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Laura Fortunato</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>2</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mark Galassi</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>2</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Bdale Garbee</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>2</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Allison Randal</PersonNm>
+        <TitleTxt>Board Chairperson, Vice President, and Director</TitleTxt>
+        <AverageHoursPerWeekRt>4.25</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Anthony K Sebro Jr</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>2</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>525073</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>0</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>226619</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>4</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>0</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>Shades of Gray PC</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>100 Shoreline Highway</AddressLine1Txt>
+            <AddressLine2Txt>Suite 100B</AddressLine2Txt>
+            <CityNm>Mill Valley</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94941</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>legal services</ServicesDesc>
+        <CompensationAmt>350117</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <PersonNm>Holger Levsen</PersonNm>
+        </ContractorName>
+        <ContractorAddress>
+          <ForeignAddress>
+            <AddressLine1Txt>Bodenstedtstrasse 16</AddressLine1Txt>
+            <CityNm>Hamburg</CityNm>
+            <CountryCd>GM</CountryCd>
+            <ForeignPostalCd>22765</ForeignPostalCd>
+          </ForeignAddress>
+        </ContractorAddress>
+        <ServicesDesc>Software Development</ServicesDesc>
+        <CompensationAmt>143114</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <PersonNm>Chris Lamb</PersonNm>
+        </ContractorName>
+        <ContractorAddress>
+          <ForeignAddress>
+            <AddressLine1Txt>Stanley House</AddressLine1Txt>
+            <AddressLine2Txt>Old Hurst Road</AddressLine2Txt>
+            <CityNm>Pidley</CityNm>
+            <ProvinceOrStateNm>Cambs</ProvinceOrStateNm>
+            <CountryCd>UK</CountryCd>
+            <ForeignPostalCd>PE28 3BY</ForeignPostalCd>
+          </ForeignAddress>
+        </ContractorAddress>
+        <ServicesDesc>Software Development</ServicesDesc>
+        <CompensationAmt>144872</CompensationAmt>
+      </ContractorCompensationGrp>
+      <CntrctRcvdGreaterThan100KCnt>3</CntrctRcvdGreaterThan100KCnt>
+      <FederatedCampaignsAmt>0</FederatedCampaignsAmt>
+      <MembershipDuesAmt>0</MembershipDuesAmt>
+      <FundraisingAmt>0</FundraisingAmt>
+      <RelatedOrganizationsAmt>0</RelatedOrganizationsAmt>
+      <GovernmentGrantsAmt>0</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>2491246</AllOtherContributionsAmt>
+      <NoncashContributionsAmt>2788</NoncashContributionsAmt>
+      <TotalContributionsAmt>2491246</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>Software Development Services</Desc>
+        <BusinessCd>541511</BusinessCd>
+        <TotalRevenueColumnAmt>517741</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>517741</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Conference Registration Fees</Desc>
+        <BusinessCd>561920</BusinessCd>
+        <TotalRevenueColumnAmt>19528</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>19528</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Conference Sponsorship Income</Desc>
+        <BusinessCd>561920</BusinessCd>
+        <TotalRevenueColumnAmt>8207</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>8207</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Proceeds from Litigation</Desc>
+        <BusinessCd>922130</BusinessCd>
+        <TotalRevenueColumnAmt>2376</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>2376</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Non-Profit Project Administration</Desc>
+        <BusinessCd>561000</BusinessCd>
+        <TotalRevenueColumnAmt>2000</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>2000</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalOthProgramServiceRevGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </TotalOthProgramServiceRevGrp>
+      <TotalProgramServiceRevenueAmt>549852</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>166903</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>166903</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <IncmFromInvestBondProceedsGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </IncmFromInvestBondProceedsGrp>
+      <RoyaltiesRevenueGrp>
+        <TotalRevenueColumnAmt>11591</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>11591</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </RoyaltiesRevenueGrp>
+      <RentalIncomeOrLossGrp>
+        <RealAmt>0</RealAmt>
+        <PersonalAmt>0</PersonalAmt>
+      </RentalIncomeOrLossGrp>
+      <GrossAmountSalesAssetsGrp>
+        <SecuritiesAmt>0</SecuritiesAmt>
+        <OtherAmt>-6594</OtherAmt>
+      </GrossAmountSalesAssetsGrp>
+      <LessCostOthBasisSalesExpnssGrp>
+        <SecuritiesAmt>0</SecuritiesAmt>
+        <OtherAmt>0</OtherAmt>
+      </LessCostOthBasisSalesExpnssGrp>
+      <GainOrLossGrp>
+        <SecuritiesAmt>0</SecuritiesAmt>
+        <OtherAmt>-6594</OtherAmt>
+      </GainOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>-6594</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>-6594</ExclusionAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <ContriRptFundraisingEventAmt>0</ContriRptFundraisingEventAmt>
+      <OtherRevenueMiscGrp>
+        <Desc>Discounts from Vendors</Desc>
+        <BusinessCd>813319</BusinessCd>
+        <TotalRevenueColumnAmt>1611</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>1611</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Other Miscellaneous</Desc>
+        <BusinessCd>813319</BusinessCd>
+        <TotalRevenueColumnAmt>114</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>114</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </OtherRevenueMiscGrp>
+      <MiscellaneousRevenueGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </MiscellaneousRevenueGrp>
+      <OtherRevenueTotalAmt>1725</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>3214723</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>563168</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>160309</ExclusionAmt>
+      </TotalRevenueGrp>
+      <ForeignGrantsGrp>
+        <TotalAmt>53174</TotalAmt>
+        <ProgramServicesAmt>53174</ProgramServicesAmt>
+      </ForeignGrantsGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>404185</TotalAmt>
+        <ProgramServicesAmt>164721</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>189433</ManagementAndGeneralAmt>
+        <FundraisingAmt>50031</FundraisingAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>641303</TotalAmt>
+        <ProgramServicesAmt>344983</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>257241</ManagementAndGeneralAmt>
+        <FundraisingAmt>39079</FundraisingAmt>
+      </OtherSalariesAndWagesGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>189044</TotalAmt>
+        <ProgramServicesAmt>105760</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>71871</ManagementAndGeneralAmt>
+        <FundraisingAmt>11413</FundraisingAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>69903</TotalAmt>
+        <ProgramServicesAmt>34183</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>30007</ManagementAndGeneralAmt>
+        <FundraisingAmt>5713</FundraisingAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>725882</TotalAmt>
+        <ProgramServicesAmt>725882</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>19740</TotalAmt>
+        <ManagementAndGeneralAmt>19740</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesProfFundraising>
+        <TotalAmt>42064</TotalAmt>
+        <FundraisingAmt>42064</FundraisingAmt>
+      </FeesForServicesProfFundraising>
+      <AdvertisingGrp>
+        <TotalAmt>16635</TotalAmt>
+        <ProgramServicesAmt>12044</ProgramServicesAmt>
+        <FundraisingAmt>4591</FundraisingAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>10650</TotalAmt>
+        <ProgramServicesAmt>4062</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>3482</ManagementAndGeneralAmt>
+        <FundraisingAmt>3106</FundraisingAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>73136</TotalAmt>
+        <ProgramServicesAmt>55716</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>16484</ManagementAndGeneralAmt>
+        <FundraisingAmt>936</FundraisingAmt>
+      </InformationTechnologyGrp>
+      <OccupancyGrp>
+        <TotalAmt>1738</TotalAmt>
+        <ManagementAndGeneralAmt>1738</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>158185</TotalAmt>
+        <ProgramServicesAmt>136171</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>22014</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </TravelGrp>
+      <ConferencesMeetingsGrp>
+        <TotalAmt>106144</TotalAmt>
+        <ProgramServicesAmt>106144</ProgramServicesAmt>
+      </ConferencesMeetingsGrp>
+      <InsuranceGrp>
+        <TotalAmt>9439</TotalAmt>
+        <ManagementAndGeneralAmt>9439</ManagementAndGeneralAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>Internships in FOSS</Desc>
+        <TotalAmt>487483</TotalAmt>
+        <ProgramServicesAmt>487483</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Software (FOSS) Development and Design</Desc>
+        <TotalAmt>479059</TotalAmt>
+        <ProgramServicesAmt>479059</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Project &amp; Program Coordination Services</Desc>
+        <TotalAmt>247380</TotalAmt>
+        <ProgramServicesAmt>232770</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>14610</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>BankCharges,PayrollService,Taxes&amp;Fines,BadDebt</Desc>
+        <TotalAmt>65833</TotalAmt>
+        <ProgramServicesAmt>23724</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>41719</ManagementAndGeneralAmt>
+        <FundraisingAmt>390</FundraisingAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>4373</TotalAmt>
+        <ProgramServicesAmt>3328</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1045</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>3805350</TotalAmt>
+        <ProgramServicesAmt>2969204</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>678823</ManagementAndGeneralAmt>
+        <FundraisingAmt>157323</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>506325</BOYAmt>
+        <EOYAmt>1431701</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>1146603</BOYAmt>
+        <EOYAmt>736418</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <PledgesAndGrantsReceivableGrp>
+        <BOYAmt>236352</BOYAmt>
+        <EOYAmt>459048</EOYAmt>
+      </PledgesAndGrantsReceivableGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>99040</BOYAmt>
+        <EOYAmt>73067</EOYAmt>
+      </AccountsReceivableGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>25224</BOYAmt>
+        <EOYAmt>32430</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <InvestmentsPubTradedSecGrp>
+        <BOYAmt>3301432</BOYAmt>
+        <EOYAmt>2668582</EOYAmt>
+      </InvestmentsPubTradedSecGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>5314976</BOYAmt>
+        <EOYAmt>5401246</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>480907</BOYAmt>
+        <EOYAmt>1109478</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>480907</BOYAmt>
+        <EOYAmt>1109478</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>1394890</BOYAmt>
+        <EOYAmt>1006678</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <DonorRestrictionNetAssetsGrp>
+        <BOYAmt>3439179</BOYAmt>
+        <EOYAmt>3285090</EOYAmt>
+      </DonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>4834069</BOYAmt>
+        <EOYAmt>4291768</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>5314976</BOYAmt>
+        <EOYAmt>5401246</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <ReconcilationRevenueExpnssAmt>-590627</ReconcilationRevenueExpnssAmt>
+      <NetUnrlzdGainsLossesInvstAmt>48326</NetUnrlzdGainsLossesInvstAmt>
+      <DonatedServicesAndUseFcltsAmt>0</DonatedServicesAndUseFcltsAmt>
+      <InvestmentExpenseAmt>0</InvestmentExpenseAmt>
+      <PriorPeriodAdjustmentsAmt>0</PriorPeriodAdjustmentsAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>1</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <ConsolAndSepBasisFinclStmtInd>X</ConsolAndSepBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>1</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>0</FederalGrantAuditRequiredInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="R000002" softwareId="24021167" softwareVersionNum="v1.00">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus4YearsAmt>3177281</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>4346553</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>4018244</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>1964878</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>2491245</CurrentTaxYearAmt>
+        <TotalAmt>15998201</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus4YearsAmt>3177281</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>4346553</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>4018244</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>1964878</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>2491245</CurrentTaxYearAmt>
+        <TotalAmt>15998201</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <SubstantialContributorsTotAmt>4274380</SubstantialContributorsTotAmt>
+      <PublicSupportTotal170Amt>11723821</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>7748</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>14043</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>140712</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>180052</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>160308</CurrentTaxYearAmt>
+        <TotalAmt>502863</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <TotalSupportAmt>16501064</TotalSupportAmt>
+      <GrossReceiptsRltdActivitiesAmt>979845</GrossReceiptsRltdActivitiesAmt>
+      <PublicSupportCY170Pct>0.71049</PublicSupportCY170Pct>
+      <PublicSupportPY170Pct>0.70921</PublicSupportPY170Pct>
+      <ThirtyThrPctSuprtTestsPY170Ind>X</ThirtyThrPctSuprtTestsPY170Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="R000003" softwareId="24021167" softwareVersionNum="v1.00">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleD documentId="R000004" softwareId="24021167" softwareVersionNum="v1.00">
+      <TotalRevEtcAuditedFinclStmtAmt>3263049</TotalRevEtcAuditedFinclStmtAmt>
+      <NetUnrealizedGainsInvstAmt>48327</NetUnrealizedGainsInvstAmt>
+      <DonatedServicesAndUseFcltsAmt>0</DonatedServicesAndUseFcltsAmt>
+      <RecoveriesPriorYearGrantsAmt>0</RecoveriesPriorYearGrantsAmt>
+      <OtherRevenueAmt>0</OtherRevenueAmt>
+      <RevenueNotReportedAmt>48327</RevenueNotReportedAmt>
+      <RevenueSubtotalAmt>3214722</RevenueSubtotalAmt>
+      <InvestmentExpensesNotIncldAmt>0</InvestmentExpensesNotIncldAmt>
+      <OtherRevenuesNotIncludedAmt>1</OtherRevenuesNotIncludedAmt>
+      <RevenueNotReportedFinclStmtAmt>1</RevenueNotReportedFinclStmtAmt>
+      <TotalRevenuePerForm990Amt>3214723</TotalRevenuePerForm990Amt>
+      <TotExpnsEtcAuditedFinclStmtAmt>3805350</TotExpnsEtcAuditedFinclStmtAmt>
+      <DonatedServicesUseFcltsAmt>0</DonatedServicesUseFcltsAmt>
+      <PriorYearAdjustmentsAmt>0</PriorYearAdjustmentsAmt>
+      <LossesReportedAmt>0</LossesReportedAmt>
+      <OtherExpensesIncludedAmt>0</OtherExpensesIncludedAmt>
+      <ExpensesNotReportedAmt>0</ExpensesNotReportedAmt>
+      <ExpensesSubtotalAmt>3805350</ExpensesSubtotalAmt>
+      <InvestmentExpensesNotIncld2Amt>0</InvestmentExpensesNotIncld2Amt>
+      <OtherExpensesNotIncludedAmt>0</OtherExpensesNotIncludedAmt>
+      <ExpensesNotRptFinclStmtAmt>0</ExpensesNotRptFinclStmtAmt>
+      <TotalExpensesPerForm990Amt>3805350</TotalExpensesPerForm990Amt>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule D, Part XI, Line 4b</FormAndLineReferenceDesc>
+        <ExplanationTxt>Loss on sale of securities</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleF documentId="R000005" softwareId="24021167" softwareVersionNum="v1.00">
+      <GrantRecordsMaintainedInd>1</GrantRecordsMaintainedInd>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>51</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>C, P, I</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>422849</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Europe (including Iceland and Greenland)</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>10</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>C, D, P, I</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>370366</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>South America</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>4</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>D, P, I</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>127422</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>South Asia</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>14</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>D, P, C, I</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>86685</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>East Asia and the Pacific</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>3</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>D, I</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>80706</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>North America (including Canada and Mexico, but not the United States)</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>2</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>E,I</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>73395</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Europe (including Iceland and Greenland)</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>2</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Grantmaking</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>53174</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Middle East and North Africa</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>1</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>I</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>3000</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <TotalOfficeCnt>0</TotalOfficeCnt>
+      <TotalEmployeeCnt>87</TotalEmployeeCnt>
+      <TotalSpentAmt>1217597</TotalSpentAmt>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Europe (including Iceland and Greenland)</RegionTxt>
+        <PurposeOfGrantTxt>A grant to Stichting Godot, a Dutch non-profit organization that supports the Godot Project, a FOSS game engine, to specifically support the use, development and improvement of Free and Open Source Software.</PurposeOfGrantTxt>
+        <CashGrantAmt>47431</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>wire transfer</MannerOfCashDisbursementTxt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+      </GrantsToOrgOutsideUSGrp>
+      <Total501c3OrgCnt>1</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>0</TotalOtherOrgCnt>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>A copyleft enforcement grant to an individual to undertake a legal action in Germany where he successfully sought the complete, corresponding source for the LGPL'd components on the router he purchased. A full explanation of the results of the grant are here: https://sfconservancy.org/news/2025/jan/09/avm-copyleft-lawsuit-resolved-with-install/</TypeOfAssistanceTxt>
+        <RegionTxt>Europe (including Iceland and Greenland)</RegionTxt>
+        <RecipientCnt>1</RecipientCnt>
+        <CashGrantAmt>5743</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>wire transfer</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <TransferToForeignCorpInd>0</TransferToForeignCorpInd>
+      <InterestInForeignTrustInd>0</InterestInForeignTrustInd>
+      <ForeignCorpOwnershipInd>0</ForeignCorpOwnershipInd>
+      <PassiveForeignInvestmestCoInd>0</PassiveForeignInvestmestCoInd>
+      <ForeignPartnershipInd>0</ForeignPartnershipInd>
+      <BoycottCountriesInd>0</BoycottCountriesInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule F, Part I, Line 2</FormAndLineReferenceDesc>
+        <ExplanationTxt>All grantees must submit reports of their work which are reviewed by the committee and staff. Travel assistance is always carried out in accordance with the written organization travel policy which is published on our website at https://sfconservancy.org/projects/policies/conservancy-travel-policy.html prior to payment, The reports and expenditures are reviewed pursuant to our fiscal controls policies, which typically includes multiple reviews by many employees. In the case of our one grant during this tax year, we required monthly meetings between a staffer and the grantee.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule F, Part I, Line 3</FormAndLineReferenceDesc>
+        <ExplanationTxt>We have coded program services in each region by a single letter and describe each herein: "C" means "conferences", which indicates that either a staff person or volunteer received travel expense reimbursement to speak at and/or attend a conference in the region, or we assisted in organizing a conference or event in that region. "D" means "software development", which indicates that we funded a contractor in that region to perform software development services as part of work described in Form 990, Part III, 4(A) "E" means "employee wages", which refers to our single employee in Canada, who works remotely for our organization in the USA. "P" means "program coordination", which indicates we funded a contractor in that region to help with coordination work for program activity work described in either Form 990, Part III, 4(a) or 4(b). "I" means "internship", which indicates that we funded an intern in this region as part of one of our internship programs described in Form 990, Part III, 4(b).</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleF>
+    <IRS990ScheduleG documentId="R000006" softwareId="24021167" softwareVersionNum="v1.00">
+      <MailSolicitationsInd>X</MailSolicitationsInd>
+      <EmailSolicitationsInd>X</EmailSolicitationsInd>
+      <InPersonSolicitationsInd>X</InPersonSolicitationsInd>
+      <SolicitationOfNonGovtGrantsInd>X</SolicitationOfNonGovtGrantsInd>
+      <AgrmtProfFundraisingActyInd>1</AgrmtProfFundraisingActyInd>
+      <FundraiserActivityInfoGrp>
+        <PersonNm>Chris Lamb</PersonNm>
+        <ForeignAddress>
+          <AddressLine1Txt>Stanley House</AddressLine1Txt>
+          <AddressLine2Txt>Old Hurst Road</AddressLine2Txt>
+          <CityNm>Pidley</CityNm>
+          <ProvinceOrStateNm>Cambs</ProvinceOrStateNm>
+          <CountryCd>UK</CountryCd>
+          <ForeignPostalCd>PE28 3BY</ForeignPostalCd>
+        </ForeignAddress>
+        <ActivityTxt>In addition to other duties unrelated to fundraising. Lamb engages in relationship building with various grantmakers and funders for our Reproducible Builds project.</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>27066</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-27066</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <TotalGrossReceiptsAmt>0</TotalGrossReceiptsAmt>
+      <TotalRetainedByContractorsAmt>27066</TotalRetainedByContractorsAmt>
+      <TotalNetToOrganizationAmt>-27066</TotalNetToOrganizationAmt>
+      <AllStatesCd>All States</AllStatesCd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule G, Part I, Line 2b(iv)</FormAndLineReferenceDesc>
+        <ExplanationTxt>Lamb works collaboratively with SFC's Executive Director on fundraising matters, so no gross receipts are directly attributable to Lamb's work alone.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleG>
+    <IRS990ScheduleJ documentId="R000007" softwareId="24021167" softwareVersionNum="v1.00">
+      <PaymentsForUseOfResidenceInd>X</PaymentsForUseOfResidenceInd>
+      <WrittenPolicyRefTAndEExpnssInd>1</WrittenPolicyRefTAndEExpnssInd>
+      <SubstantiationRequiredInd>1</SubstantiationRequiredInd>
+      <Form990OfOtherOrganizationsInd>X</Form990OfOtherOrganizationsInd>
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>0</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>0</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>0</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>0</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>0</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Karen M Sandler</PersonNm>
+        <TitleTxt>President and Executive Director</TitleTxt>
+        <BaseCompensationFilingOrgAmt>178851</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>5465</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>56826</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>241142</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule J, Part I, Line 1a</FormAndLineReferenceDesc>
+        <ExplanationTxt>Since all Organization's employees work from their home offices, each employee receives a $50/month automatic reimbursement for home Internet services. Each employee must submit documentation that their home Internet service costs at least $50/month.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleO documentId="R000008" softwareId="24021167" softwareVersionNum="v1.00">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 11b</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Directors are sent the audit report the shortly after the auditors release it. The Finance Subcommittee then meets with the auditors to review the audit report as soon as possible. The Finance Subcommittee immediately files a report of that meeting by email to the full Board. Before SFC staff files the 990, a final draft is submitted to the Directors. The Directors review the 990 at that time, and can raise any urgent issues immediately with each other and staff by email or telephone. Formal approval of the 990 and audit report occurs at the next regular meeting of the Directors.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 12c</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Board of Directors formally adopted and consented to the Organization's conflict of interest, whistleblower, and document retention policy on 16 March 2012. The policies are available for public inspection and comment. The Organization's policy is to remind the Board annually that the conflict of interest policy is in effect and any written conflicts disclosures are collected annually by a Director and/or staff member. Volunteers who help the Organization select contractors are required to adhere to the conflict of interest policy.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 15</FormAndLineReferenceDesc>
+        <ExplanationTxt>All full-time employees (including any key employees or full-time compensated Officers are equally eligible for the same benefits package, which includes paid-time-off, 403(b) (including matching funds), medical, vision and dental benefits package. That benefits package, and changes thereto, are discussed and approved by the Board of Directors. Any employee serving on the Board of Directors or present at the meeting recuse themselves from that vote and the Board considers benefits package changes only in executive session without any employees present. Karen Sandler, the current President and Executive Director, negotiated her compensation package with outside Director and (at the time) Board Chairperson, Mark Galassi, when hired. That compensation package was then discussed and approved by the outside Directors. Changes to Sandler's compensation policy are made only with executive-session discussion by outside Directors. Sandler's salary increase in the 2017 tax year was again negotiated with Galassi and discussed in executive session by outside Directors. Sandler receives now and has always received the same benefits package as all other employees (described above), and receives COLAs using the same formula as other employees. Bradley M. Kuhn, Policy Fellow, is a director and was an officer during the tax year. His original compensation package (in 2010) was negotiated with Galassi and approved in executive session by the board, using data from Form 990s of similar organizations and other salary research data. Kuhn receives COLAs using the same formula as other staff, since that time. Kuhn also receives the same benefits package (described above) as all other employees.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section C, Line 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>Organization's Form 990s, auditor reports, articles of incorporation &amp; by-laws are available on their website at: https://sfconservancy.org/about/filings/ Other key policy documents are developed in public at: https://f.sfconservancy.org/Conservancy/policies</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <ReasonableCauseExplanation documentId="R000009" softwareId="24021167" softwareVersionNum="v1.00">
+      <ExplanationTxt>On the evening of the filing deadline, a material calculation error was discovered on our Schedule A. We worked into the night, and did submit with our e-filing service before the IRS' 23:59 Eastern deadline. Unfortunately, our e-filing service does not accept same-day filings after 17:00 Eastern, so this 990 will presumably reach the IRS on the day after the deadline.</ExplanationTxt>
+    </ReasonableCauseExplanation>
+  </ReturnData>
+</Return>
