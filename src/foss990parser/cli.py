@@ -15,8 +15,9 @@ import sys
 from collections import Counter
 from collections.abc import Sequence
 from pathlib import Path
+from typing import Any
 
-from foss990parser import __version__, eins, export, index
+from foss990parser import __version__, eins, export, index, publish
 from foss990parser.config import DEFAULT_RETURN_TYPES, Settings, default_years
 from foss990parser.fetch import Fetcher, xml_path
 from foss990parser.net import make_session
@@ -65,10 +66,11 @@ def cmd_fetch(args: argparse.Namespace, settings: Settings) -> int:
     return 0 if counts.get("missing", 0) == 0 else 1
 
 
-def cmd_parse(args: argparse.Namespace, settings: Settings) -> int:
-    """Parse cached XML into per-EIN JSON and a core CSV."""
-    orgs = eins.read_csv(settings.eins_csv)
-    refs = _filtered(index.read_csv(settings.filings_csv), args.ein)
+def _grouped(
+    settings: Settings, ein: str | None, include_person_names: bool
+) -> dict[str, list[dict[str, Any]]]:
+    """Parse the cached XML of the selected filings, grouped by EIN."""
+    refs = _filtered(index.read_csv(settings.filings_csv), ein)
     fetcher = Fetcher(settings, make_session())
     sources: dict[str, tuple[Path | None, str]] = {}
     for ref in refs:
@@ -76,7 +78,13 @@ def cmd_parse(args: argparse.Namespace, settings: Settings) -> int:
         if path.exists():
             source = fetcher.manifest.get(ref.object_id, "cache")
             sources[ref.object_id] = (path, source)
-    grouped = export.group_by_ein(refs, sources, args.include_person_names)
+    return export.group_by_ein(refs, sources, include_person_names)
+
+
+def cmd_parse(args: argparse.Namespace, settings: Settings) -> int:
+    """Parse cached XML into per-EIN JSON and a core CSV."""
+    orgs = eins.read_csv(settings.eins_csv)
+    grouped = _grouped(settings, args.ein, args.include_person_names)
     out_dir = Path(args.out)
     written = export.write_json(grouped, orgs, out_dir)
     export.write_core_csv(grouped, orgs, out_dir / export.CORE_CSV)
@@ -87,6 +95,23 @@ def cmd_parse(args: argparse.Namespace, settings: Settings) -> int:
         f"Wrote {len(written)} JSON files, {export.CORE_CSV} and "
         f"{len(tables)} table CSVs to {out_dir}"
     )
+    return 0
+
+
+def cmd_publish(args: argparse.Namespace, settings: Settings) -> int:
+    """Write the published dataset layout into a fossfoundation checkout."""
+    orgs = eins.read_csv(settings.eins_csv)
+    grouped = _grouped(settings, None, include_person_names=False)
+    out_dir = publish.publish(
+        grouped,
+        orgs,
+        settings.eins_csv,
+        settings.filings_csv,
+        Path(args.repo),
+    )
+    site_csv = Path(args.repo) / publish.SITE_DATA_DIR / publish.CORE_CSV
+    print(f"Published {len(grouped)} organizations to {out_dir}")
+    print(f"Copied {publish.CORE_CSV} to {site_csv}")
     return 0
 
 
@@ -209,6 +234,14 @@ def build_parser() -> argparse.ArgumentParser:
     add_ein(p)
     add_out(p)
     p.set_defaults(func=cmd_parse)
+
+    p = sub.add_parser(
+        "publish",
+        help="write the published dataset into a fossfoundation checkout "
+        "(data/irs990 and _data/irs990/core.csv); person names withheld",
+    )
+    add_repo(p)
+    p.set_defaults(func=cmd_publish)
 
     p = sub.add_parser("status", help="show coverage per EIN")
     p.set_defaults(func=cmd_status)

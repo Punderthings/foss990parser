@@ -20,7 +20,21 @@ from foss990parser.parse import parse_return
 log = logging.getLogger(__name__)
 
 CORE_KEYS = list(CORE[FORM_990])
+CORE_COLUMNS = [
+    "ein",
+    "name",
+    "tax_period",
+    "tax_year",
+    "return_type",
+    "return_version",
+    "amended",
+    "source",
+    *CORE_KEYS,
+]
+"""Columns of the core CSV, in order."""
 CORE_CSV = "irs990_core.csv"
+FILER_COLUMNS = ["ein", "name", "tax_period", "tax_year"]
+"""Filer columns that start every row of a table CSV."""
 TABLES_DIR = "tables"
 TABLE_CSVS = [
     "contractors",
@@ -118,17 +132,7 @@ def write_core_csv(
 ) -> None:
     """Write one CSV row per parsed filing with the core totals."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    columns = [
-        "ein",
-        "name",
-        "tax_period",
-        "tax_year",
-        "return_type",
-        "return_version",
-        "amended",
-        "source",
-        *CORE_KEYS,
-    ]
+    columns = CORE_COLUMNS
     with path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=columns)
         writer.writeheader()
@@ -144,6 +148,28 @@ def write_core_csv(
                 writer.writerow(row)
 
 
+def table_columns(key: str) -> list[str]:
+    """Return the row keys of table ``key`` as written to its CSV."""
+    table = TABLES[key]
+    extra = list(table.columns)
+    if table.address is not None:
+        extra += ["city", "state", "country"]
+    if table.person_name is not None:
+        extra.append("name_type")
+    return extra
+
+
+def table_header(key: str) -> list[str]:
+    """Return the CSV header of table ``key``.
+
+    Table columns that repeat a filer column (e.g. a grant recipient's
+    ``ein``) are prefixed with the table key, as in ``grants_to_orgs_ein``.
+    """
+    return FILER_COLUMNS + [
+        f"{key}_{c}" if c in FILER_COLUMNS else c for c in table_columns(key)
+    ]
+
+
 def write_table_csvs(
     grouped: dict[str, list[dict[str, Any]]],
     orgs: dict[str, Organization],
@@ -151,19 +177,14 @@ def write_table_csvs(
 ) -> list[Path]:
     """Write one CSV per table in :data:`TABLE_CSVS`, across all EINs.
 
-    Each row is prefixed with the filer's EIN, name and tax period.
+    Each row is prefixed with the filer's EIN, name and tax period; see
+    :func:`table_header`.
     """
     out_dir.mkdir(parents=True, exist_ok=True)
     written = []
     for key in TABLE_CSVS:
-        table = TABLES[key]
-        columns = ["ein", "name", "tax_period", "tax_year"]
-        extra = list(table.columns)
-        if table.address is not None:
-            extra += ["city", "state", "country"]
-        if table.person_name is not None:
-            extra.append("name_type")
-        header = columns + [f"{key}_{c}" if c == "name" else c for c in extra]
+        extra = table_columns(key)
+        header = table_header(key)
         path = out_dir / f"{key}.csv"
         with path.open("w", newline="", encoding="utf-8") as handle:
             writer = csv.writer(handle)

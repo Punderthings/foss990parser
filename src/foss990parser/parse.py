@@ -60,22 +60,37 @@ def find(element: Element | None, path: str) -> Element | None:
     return element
 
 
+def element_type(name: str) -> str:
+    """Return the value type of an element: number/integer/boolean/string.
+
+    The names follow the Frictionless Table Schema field types.
+    """
+    if name.endswith(("Pct", "Rt")):
+        return "number"
+    if name.endswith(("Amt", "Cnt")) or name in _NUMERIC_NAMES:
+        return "integer"
+    if name.endswith("Ind"):
+        return "boolean"
+    return "string"
+
+
 def convert(name: str, text: str | None) -> Value:
     """Convert element text to int/bool/str based on the element name."""
     if text is None or not text.strip():
         return None
     text = text.strip()
-    if name.endswith(("Pct", "Rt")):
+    kind = element_type(name)
+    if kind == "number":
         try:
             return float(text)
         except ValueError:
             return text
-    if name.endswith(("Amt", "Cnt")) or name in _NUMERIC_NAMES:
+    if kind == "integer":
         try:
             return int(text)
         except ValueError:
             return text
-    if name.endswith("Ind"):
+    if kind == "boolean":
         return text.lower() in ("x", "true", "1")
     return text
 
@@ -159,7 +174,8 @@ def parse_table(
 ) -> list[dict[str, Value]]:
     """Extract every row of one repeating group as a list of dicts.
 
-    Rows naming an individual (``table.person_name``) are marked with
+    Rows naming an individual (``table.person_name``, or a business name
+    without ``table.business_flag`` checked) are marked with
     ``name_type: "person"`` and their name is withheld unless
     ``include_person_names`` is True.
     """
@@ -178,6 +194,8 @@ def parse_table(
                 row.update(_address(item, table.address))
             if table.person_name is not None:
                 is_person = find(item, table.person_name) is not None
+                if not is_person and table.business_flag is not None:
+                    is_person = value_at(item, table.business_flag) is not True
                 row["name_type"] = "person" if is_person else "business"
                 if is_person and not include_person_names:
                     row["name"] = None
