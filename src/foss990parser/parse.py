@@ -60,22 +60,37 @@ def find(element: Element | None, path: str) -> Element | None:
     return element
 
 
+def element_type(name: str) -> str:
+    """Return the value type of an element: number/integer/boolean/string.
+
+    The names follow the Frictionless Table Schema field types.
+    """
+    if name.endswith(("Pct", "Rt")):
+        return "number"
+    if name.endswith(("Amt", "Cnt")) or name in _NUMERIC_NAMES:
+        return "integer"
+    if name.endswith("Ind"):
+        return "boolean"
+    return "string"
+
+
 def convert(name: str, text: str | None) -> Value:
     """Convert element text to int/bool/str based on the element name."""
     if text is None or not text.strip():
         return None
     text = text.strip()
-    if name.endswith(("Pct", "Rt")):
+    kind = element_type(name)
+    if kind == "number":
         try:
             return float(text)
         except ValueError:
             return text
-    if name.endswith(("Amt", "Cnt")) or name in _NUMERIC_NAMES:
+    if kind == "integer":
         try:
             return int(text)
         except ValueError:
             return text
-    if name.endswith("Ind"):
+    if kind == "boolean":
         return text.lower() in ("x", "true", "1")
     return text
 

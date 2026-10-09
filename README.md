@@ -36,7 +36,7 @@ for the few IRS zips that use Deflate64 compression. Plain `uv sync` works too;
 those returns are then reported as missing, with an install hint.
 
 Commands can also be run one at a time (`eins`, `index`, `fetch`, `parse`,
-`status`); see `uv run foss990 --help`. Useful options:
+`publish`, `status`); see `uv run foss990 --help`. Useful options:
 
 - `--years 2024 2025 2026`: limit which IRS **processing** years are indexed.
 - `--ein 470825376`: fetch or parse a single organization.
@@ -74,7 +74,31 @@ the same as 0. Tables are empty lists when the schedule wasn't filed (check the
 The `parse` command also writes one cross-organization CSV per table to
 `data/irs990/tables/` (`contractors.csv`, `grants_to_orgs.csv`,
 `related_corporations.csv` and so on), each row prefixed with the filer's EIN,
-name and tax period.
+name and tax period. Table columns that repeat a filer column get the table
+name as a prefix (e.g. `grants_to_orgs_ein` is the recipient's EIN).
+
+## Publishing to fossfoundation.info
+
+```sh
+uv run foss990 publish --repo ../fossfoundation
+```
+
+`publish` parses the cached returns again and writes the public dataset:
+
+| Path in the fossfoundation repo | Contents |
+|---|---|
+| `data/irs990/core.csv` | One row per filing with the core totals |
+| `data/irs990/orgs/<EIN>.json` | Every filing of one organization (as above) |
+| `data/irs990/tables/*.csv` | The cross-organization tables |
+| `data/irs990/links.csv` | One row per link between organizations: Schedule I grants (`grant`), Schedule R related organizations and transactions. Transactions get the other organization's EIN when its name matches one of the filer's Schedule R related organizations. `*_identifier` is the fossfoundation.info id |
+| `data/irs990/filings.csv`, `organizations.csv` | The selected filings and the organizations searched for |
+| `data/irs990/datapackage.json` | [Frictionless Data](https://frictionlessdata.io/) description of every CSV and column type |
+| `_data/irs990/core.csv` | Copy of `core.csv` for Jekyll pages (`site.data.irs990.core`) |
+
+Names of individuals are always withheld by `publish`, and it stops with an
+error if one would be written. A hand-written `data/irs990/README.md` is left
+alone, and JSON files of organizations that no longer have filings are
+removed.
 
 **Privacy:** addresses are reduced to city, state/province and country, so
 street lines are never stored. Rows naming individuals (officers and

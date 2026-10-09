@@ -44,6 +44,8 @@ cache/xml/<OBJECT_ID>_public.xml  (+ manifest.json: source per object)
         │  parse.py + fields.py
         ▼
 export.py ──► data/irs990/<EIN>.json, irs990_core.csv, tables/*.csv
+publish.py ─► fossfoundation data/irs990/ (+ links.csv, datapackage.json)
+              and _data/irs990/core.csv
 ```
 
 | Module | Responsibility |
@@ -56,7 +58,8 @@ export.py ──► data/irs990/<EIN>.json, irs990_core.csv, tables/*.csv
 | `fields.py` | **The field map**: `CORE`, `SCALARS`, `SCHEDULE_SCALARS`, `FUNCTIONAL_EXPENSES`, `BALANCE_SHEET`, `TABLES` |
 | `parse.py` | Safe lxml parsing (no entity expansion or network access); namespace-agnostic local-name paths; type conversion |
 | `export.py` | Per-EIN JSON, core CSV, cross-organization table CSVs |
-| `cli.py` | `eins`, `index`, `fetch`, `parse`, `status`, `run` |
+| `publish.py` | Published layout in a fossfoundation checkout: links CSV, Frictionless `datapackage.json`, Jekyll copy of the core CSV |
+| `cli.py` | `eins`, `index`, `fetch`, `parse`, `publish`, `status`, `run` |
 
 ## 4. Data quirks to know
 
@@ -87,6 +90,15 @@ export.py ──► data/irs990/<EIN>.json, irs990_core.csv, tables/*.csv
   (`Table.checkboxes`).
 - **Schedule R Part II** stores the organization's name in
   `DisregardedEntityName` (an IRS schema quirk). `fields.py` handles it.
+- **Officers under `BusinessName`.** Part VII-A allows a business name only
+  for institutional trustees, but some filers (Apereo, TP 202310) put
+  individual directors there. A row without `PersonNm` counts as a business
+  only when `InstitutionalTrusteeInd` is checked (`Table.business_flag`).
+- **Schedule R names vary.** Part V transactions name the other organization
+  without an EIN, often spelled differently from Parts I–IV ("MOZILLA CORP"
+  vs "MOZILLA CORPORATION"). `publish` matches names ignoring punctuation, a
+  leading "The" and legal suffixes, and leaves the EIN empty when the name is
+  ambiguous.
 - **Self-reported values** may look odd (e.g. a board of 371 "voting members"
   for AlmaLinux). They are kept exactly as filed.
 
@@ -125,6 +137,8 @@ export.py ──► data/irs990/<EIN>.json, irs990_core.csv, tables/*.csv
   `name_type: "person"`, but the name is withheld unless
   `--include-person-names` is passed.
 - Officer pay is in the per-EIN JSON only, never in a CSV.
+- `publish` never includes person names and refuses to write if a row
+  marked `person` still has a name (`publish.check_no_person_names`).
 
 ## 8. Validation (first full run, Oct 2026)
 
@@ -148,7 +162,7 @@ export.py ──► data/irs990/<EIN>.json, irs990_core.csv, tables/*.csv
 ```sh
 uv run foss990 run --repo ../fossfoundation   # monthly is enough
 uv run foss990 status                          # coverage per foundation
-uv run foss990 parse --out ../fossfoundation/_data/irs990   # publish
+uv run foss990 publish --repo ../fossfoundation   # public dataset
 ```
 
 Re-runs only download new filings. Use `index --refresh` to pick up updated
@@ -174,7 +188,7 @@ Tests are fully offline (fake HTTP sessions and real XML fixtures).
 - Non-US foundations need a different source (budget model / national
   registries).
 - Possible automation: a monthly GitHub Action that runs `run` and opens a PR
-  against `fossfoundation/_data/irs990`.
+  against `fossfoundation/data/irs990`.
 
 ## 11. Data sources and licenses
 
