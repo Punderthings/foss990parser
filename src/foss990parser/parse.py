@@ -159,7 +159,8 @@ def parse_table(
 ) -> list[dict[str, Value]]:
     """Extract every row of one repeating group as a list of dicts.
 
-    Rows naming an individual (``table.person_name``) are marked with
+    Rows naming an individual (``table.person_name``, or a business name
+    without ``table.business_flag`` checked) are marked with
     ``name_type: "person"`` and their name is withheld unless
     ``include_person_names`` is True.
     """
@@ -178,6 +179,8 @@ def parse_table(
                 row.update(_address(item, table.address))
             if table.person_name is not None:
                 is_person = find(item, table.person_name) is not None
+                if not is_person and table.business_flag is not None:
+                    is_person = value_at(item, table.business_flag) is not True
                 row["name_type"] = "person" if is_person else "business"
                 if is_person and not include_person_names:
                     row["name"] = None

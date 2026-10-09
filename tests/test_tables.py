@@ -98,6 +98,35 @@ def test_person_names_withheld_by_default():
     assert row["name"] == "JANE DOE"
 
 
+OFFICER_XML = b"""<Return xmlns="http://www.irs.gov/efile"><ReturnData>
+<IRS990><Form990PartVIISectionAGrp>
+  <BusinessName><BusinessNameLine1Txt>JOHN ROE</BusinessNameLine1Txt>
+  </BusinessName><TitleTxt>CHAIR</TitleTxt>
+  <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+</Form990PartVIISectionAGrp><Form990PartVIISectionAGrp>
+  <BusinessName><BusinessNameLine1Txt>TRUST BANK NA</BusinessNameLine1Txt>
+  </BusinessName><TitleTxt>TRUSTEE</TitleTxt>
+  <InstitutionalTrusteeInd>X</InstitutionalTrusteeInd>
+</Form990PartVIISectionAGrp></IRS990></ReturnData></Return>"""
+
+
+def test_officer_business_name_without_institution_is_person():
+    # Some filers (e.g. Apereo 2023) list directors under BusinessName.
+    return_data = load(OFFICER_XML)[0]
+    table = fields.TABLES["officers"]
+    director, bank = parse_table(return_data, table)
+    assert director["name"] is None and director["name_type"] == "person"
+    assert director["title"] == "CHAIR"
+    assert bank["name"] == "TRUST BANK NA"
+    assert bank["name_type"] == "business"
+    director, _ = parse_table(return_data, table, include_person_names=True)
+    assert director["name"] == "JOHN ROE"
+
+
+def test_contractor_business_name_stays_business():
+    assert fields.TABLES["contractors"].business_flag is None
+
+
 def test_table_csvs(tmp_path):
     ref = FilingRef(
         ein="460503801",

@@ -160,6 +160,11 @@ class Table(NamedTuple):
             Only city, state/province and country are kept, never street.
         person_name: Path whose presence marks the row as an individual,
             whose name is withheld unless explicitly requested.
+        business_flag: Checkbox path that must be checked for a row
+            without ``person_name`` to count as a business. Rows without
+            it are treated as individuals, because some filers put
+            people's names in ``BusinessName``. None means any row
+            without ``person_name`` is a business.
         checkboxes: True if absent ``*Ind`` columns mean "unchecked"
             (False) rather than "not reported" (None).
 
@@ -171,6 +176,7 @@ class Table(NamedTuple):
     columns: dict[str, tuple[str, ...]]
     address: str | None = None
     person_name: str | None = None
+    business_flag: str | None = None
     checkboxes: bool = False
 
 
@@ -232,6 +238,7 @@ TABLES: dict[str, Table] = {
             "other_comp": ("OtherCompensationAmt",),
         },
         person_name="PersonNm",
+        business_flag="InstitutionalTrusteeInd",
         checkboxes=True,
     ),
     "contractors": Table(
