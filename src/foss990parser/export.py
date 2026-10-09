@@ -151,7 +151,9 @@ def write_table_csvs(
 ) -> list[Path]:
     """Write one CSV per table in :data:`TABLE_CSVS`, across all EINs.
 
-    Each row is prefixed with the filer's EIN, name and tax period.
+    Each row is prefixed with the filer's EIN, name and tax period; table
+    columns with the same names (e.g. a grant recipient's ``ein``) are
+    prefixed with the table key, as in ``grants_to_orgs_ein``.
     """
     out_dir.mkdir(parents=True, exist_ok=True)
     written = []
@@ -163,7 +165,7 @@ def write_table_csvs(
             extra += ["city", "state", "country"]
         if table.person_name is not None:
             extra.append("name_type")
-        header = columns + [f"{key}_{c}" if c == "name" else c for c in extra]
+        header = columns + [f"{key}_{c}" if c in columns else c for c in extra]
         path = out_dir / f"{key}.csv"
         with path.open("w", newline="", encoding="utf-8") as handle:
             writer = csv.writer(handle)

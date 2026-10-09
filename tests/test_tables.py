@@ -152,6 +152,10 @@ def test_table_csvs(tmp_path):
     assert len(rows) == 5
     assert rows[0]["contractors_name"] == "PSI SERVICES INC"
     assert rows[0]["tax_period"] == "202412"
+    with (tmp_path / "related_tax_exempt.csv").open() as handle:
+        header = next(csv.reader(handle))
+    assert len(header) == len(set(header))
+    assert header[0] == "ein" and "related_tax_exempt_ein" in header
 
 
 def test_officers_lf_json_only():
